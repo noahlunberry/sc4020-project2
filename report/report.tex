@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\graphicspath{images/} % Direct to "images" folder
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{conveniences}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{ragged2e}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage[titles]{tocloft}  % Allows customization of ToC layout
+\usepackage{etoolbox}
+\usepackage{comment}
+
+\usepackage{hyperref}
+\renewcommand{\sectionautorefname}{Section}
+\renewcommand{\subsectionautorefname}{Section}
+\renewcommand{\subsubsectionautorefname}{Section}
+
+\titleformat{\section}
+    {\centering\fontS{18}\bfseries} %Centered, Font 18, Bold
+    {\thesection} %No numbering
+    {0.5em} %No extra space
+    {} %No extra formatting
+    [\vspace{20pt}\titlerule\vspace{10pt}]
+
+\begin{document}
+\begin{center}
+    \includegraphics[width=\linewidth]{NTU_Logo.png}
+    \\[1cm]
+    \fontS{20}
+    \underline{\textbf{SC4020 Data Analytics and Mining}}
+    \\[1.5em]
+    \fontS{14}
+    Academic Year 2025/2026
+    \\[1em]
+    Semester 1
+    \\[2em]
+    Group 18
+    \\[5em]
+    \textbf{
+        LUNBERRY NOAH IWATA (N2503869H) \\[1em]
+        PIKERINGA ANTONINA DAILA (N2504101A) \\[1em]
+        RAHLFS FREDERIC MAURITZ (N2504096K) \\[1em]
+        SARAH EMILY ONG XIN WEI (U2440124G) \\[1em]
+        }
+\end{center}
+\pagebreak
+
+\justifying
+
+\pagestyle{fancy}
+\fancyhf{}  % Clear default header/footer
+\fancyhead[R]{\textcolor{gray}{\nouppercase{\leftmark}}}   % Left header shows current section title
+\fancyfoot[C]{\thepage}  % Footer center shows page number
+
+\pagenumbering{roman}
+
+\pagebreak
+\renewcommand{\cftdotsep}{0.5}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\contentsname}{Table of Contents}  % Set ToC title text
+\setlength{\cftbeforesecskip}{10pt}   % Space before sections
+\setlength{\cftbeforesubsecskip}{10pt} % Space before subsections
+\setlength{\cftbeforesubsubsecskip}{10pt} % Space before subsections
+\renewcommand{\cftsecpresnum}{Chapter~} % Adds "Chapter" before section number
+\renewcommand{\cftsecaftersnum}{\quad} 
+\setlength{\cftsecnumwidth}{6.1em}   %hardcoded in, will die if you have double digit chapters
+%\renewcommand{\numberline}[1]{Chapter #1\quad} %old code, works as well but add Chapter to the subsections too which is L
+
+\tableofcontents
+
+\pagebreak
+\pagenumbering{arabic}
+\section{Task 1: Analysis of Symptom Co-occurrence Patterns}
+
+\pagebreak
+\section{Task 2: Mining Cancer Feature Patterns}
+
+\pagebreak
+\section{Task 3: Open Advanced Task}
+
+\pagebreak
+\section{Conclusion} % potentially optional
+
+\pagebreak
+\section*{Appendix A - Breakdown of Contributions}
+\pagenumbering{arabic}
+\markboth{Appendix A - Breakdown of Contributions}{}
+\renewcommand{\thepage}{A-\arabic{page}}
+\addcontentsline{toc}{section}{Appendix A - Breakdown of Contributions}
+
+\textbf{LUNBERRY NOAH IWATA (N2503869H)} \\
+Coding, analysis, and write-up for Task 2. \\
+
+\textbf{PIKERINGA ANTONINA DAILA (N2504101A)} \\
+Coding, analysis, and write-up for Task 2. \\
+
+\textbf{RAHLFS FREDERIC MAURITZ (N2504096K)} \\
+Coding, analysis, and write-up for Task 3. \\
+
+\textbf{SARAH EMILY ONG XIN WEI (U2440124G)} \\
+Coding, analysis, and write-up for Task 1. \\
+
+\end{document}
