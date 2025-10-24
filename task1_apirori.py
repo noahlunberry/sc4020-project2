@@ -4,8 +4,8 @@ import pandas as pd
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import apriori, association_rules
 
-# Step 1: Load dataset
-df = pd.read_csv("Disease_Symptom_Dataset.csv")
+# Step 1: load dataset
+df = pd.read_csv("dataset.csv")
 
 # Step 2: Prepare transactions (clean nulls)
 transactions = []
