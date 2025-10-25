@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.4.18)  25 OCT 2025 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.4.18)  25 OCT 2025 10:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -392,7 +392,7 @@ Package hyperref Info: Link coloring OFF on input line 31.
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
-<NTU_Logo.png, id=35, 3017.2725pt x 1083.04625pt>
+<NTU_Logo.png, id=39, 3017.2725pt x 1083.04625pt>
 File: NTU_Logo.png Graphic file (type png)
 <use NTU_Logo.png>
 Package pdftex.def Info: NTU_Logo.png  used on input line 33.
@@ -504,22 +504,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 146--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
@@ -546,22 +546,25 @@ Package rerunfilecheck Warning: File `report.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: 9E75FB740E8A205D7F6068DDDFE73221;1573
-(rerunfilecheck)             After:  DB43337EAEC44EB7CD86542D3C5B4870;1746.
+(rerunfilecheck)             Before: DB43337EAEC44EB7CD86542D3C5B4870;1746
+(rerunfilecheck)             After:  9E75FB740E8A205D7F6068DDDFE73221;1573.
  ) 
 Here is how much of TeX's memory you used:
- 12268 strings out of 474116
- 192744 string characters out of 5747717
- 1934190 words of memory out of 5000000
+ 12267 strings out of 474116
+ 192739 string characters out of 5747717
+ 1933190 words of memory out of 5000000
  34467 multiletter control sequences out of 15000+600000
- 568256 words of font info for 75 fonts, out of 8000000 for 9000
+ 567909 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,79p,1249b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (8 pages, 331741 bytes).
+
+pdfTeX warning (dest): name{subsection.1.4} has been referenced but does not exist, replaced by a fixed one
+
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (8 pages, 320968 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  17 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
