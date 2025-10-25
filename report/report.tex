@@ -78,6 +78,46 @@
 \pagenumbering{arabic}
 \section{Task 1: Analysis of Symptom Co-occurrence Patterns}
 
+In this task, we analysed the co-occurrence pattern of different symptoms within disease profiles using the Apriori algorithm.
+
+\subsection{Data Preprocessing}
+The dataset is loaded from a CSV file from the Disease Symptom Prediction Dataset. 
+It was then cleaned to remove null values. 
+Each row represents a transaction. We then extract the symptoms (items) associated with each case from every row (transaction). 
+
+The symptoms are then convereted to lowercase and we remove any whitespace
+This ensures that when we store the symptoms, there are no duplicate symptoms within transactions.
+Using the \texttt{TransactionEncoder} from the \texttt{mlxtend} library, the transactions are transformed via one-hot encoding. 
+This facilitates the implementation of the Apriori algorithm.
+
+\subsection{Implementation of Apriori Algorithm}
+The Apriori algorithm is implemented using the \texttt{mlxtend} library, with the goal of mining frequent itemsets from the preprocessed transaction data. 
+The minimum support threshold is set to 0.1, meaning that an itemset must appear in at least 10\% of the transactions to be considered frequent. 
+
+Following the discovery of frequent itemsets, the \texttt{association\_rules} function is used to generate association rules with a minimum confidence threshold of 0.6. 
+This ensures that only rules with a confidence greater than or equal to 60\% are considered valid. 
+
+The key parameters used are support and confidence, which are essential for filtering out weak rules and itemsets.
+
+\subsection{Results}
+The frequent itemsets and association rules discovered using the Apriori algorithm are shown in the table below. 
+The frequent itemsets include individual symptoms that appear together in the dataset with a support greater than or equal to 0.1. 
+The association rules highlight the relationships between symptoms, where the antecedents (conditions) are linked to the consequents (outcomes), with each rule being evaluated based on its support and confidence.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Antecedents}        & \textbf{Consequents}       & \textbf{Support} & \textbf{Confidence} \\ \hline
+dark\_urine                 & abdominal\_pain            & 0.110976         & 0.957895           \\ \hline
+abdominal\_pain             & loss\_of\_appetite         & 0.132927         & 0.633721           \\ \hline
+abdominal\_pain             & vomiting                   & 0.176829         & 0.843023           \\ \hline
+yellowing\_of\_eyes         & abdominal\_pain            & 0.114634         & 0.691176           \\ \hline
+yellowish\_skin             & abdominal\_pain            & 0.154878         & 0.835526           \\ \hline
+\end{tabular}
+\caption{Association Rules with Support and Confidence}
+\end{table} 
+
 \pagebreak
 \section{Task 2: Mining Cancer Feature Patterns}
 
