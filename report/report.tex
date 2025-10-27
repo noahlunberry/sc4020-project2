@@ -121,6 +121,67 @@ yellowish\_skin             & abdominal\_pain            & 0.154878         & 0.
 \pagebreak
 \section{Task 2: Mining Cancer Feature Patterns}
 
+In this task we looked at the Breast Cancer Wisconsin (Diagnostic) dataset to find simple repeating feature patterns that appear in malignant and benign cases. 
+The idea is to turn all the numeric feature values into small categories (low, med, high) and then see what combinations show up the most.
+
+\subsection{Data Preprocessing}
+We first load the dataset and drop the \texttt{id} column since it is not useful for the analysis. 
+The column \texttt{diagnosis} is encoded where M is 1 (malignant) and B is 0 (benign). 
+Most features are numeric so we clean non-numeric columns and remove rows that have missing values.
+
+To make the features easier to compare, we scale them with z-score normalization. 
+Then we discretize them into three bins (low, medium, high) using the quantile method so that each group has roughly the same number of samples. 
+This makes it easier to see which feature values tend to be high or low for each patient.
+
+\subsection{Building Sequences}
+After the data is cleaned, we build a small ordered sequence for each patient. 
+For example, if a patient has many “high” values in features like radius or concavity, that patient’s sequence might look like:
+\[
+\langle \{radius\_mean\_high\}, \{concavity\_mean\_high\}, \{smoothness\_mean\_low\} \rangle
+\]
+Each sequence keeps at most three itemsets (top features per patient). 
+This keeps the data simple and faster to mine.
+
+\subsection{Pattern Mining with GSP}
+We use a basic Generalized Sequential Pattern (GSP) algorithm to find patterns that appear often in the malignant and benign groups. 
+The minimum support is set to 0.25 so a pattern must appear in at least 25\% of the cases to be kept. 
+The maximum pattern length is 2 since longer patterns made the search slow and did not add much insight.
+
+\subsection{Results}
+The results show several strong single-feature patterns for both classes. 
+The top frequent itemsets are shown below.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Class} & \textbf{Length} & \textbf{Pattern} & \textbf{Support} \\ \hline
+Malignant & 1 & \{radius\_worst\_high\} & 0.844 \\ \hline
+Malignant & 1 & \{concave\_points\_worst\_high\} & 0.840 \\ \hline
+Malignant & 1 & \{perimeter\_worst\_high\} & 0.840 \\ \hline
+Malignant & 1 & \{area\_worst\_high\} & 0.835 \\ \hline
+Malignant & 1 & \{concave\_points\_mean\_high\} & 0.816 \\ \hline
+Benign & 1 & \{radius\_worst\_high\} & 0.844 \\ \hline
+Benign & 1 & \{concave\_points\_worst\_high\} & 0.840 \\ \hline
+Benign & 1 & \{perimeter\_worst\_high\} & 0.840 \\ \hline
+Benign & 1 & \{area\_worst\_high\} & 0.835 \\ \hline
+Benign & 1 & \{concave\_points\_mean\_high\} & 0.816 \\ \hline
+\end{tabular}
+\caption{Top frequent patterns in malignant and benign cases}
+\end{table}
+
+\subsection{Discussion}
+We see that features related to size and shape, such as \texttt{radius\_worst}, \texttt{perimeter\_worst}, and \texttt{area\_worst}, often appear with high values in both malignant and benign samples. 
+These features describe how large and irregular a cell cluster is. 
+The pattern also shows that \texttt{concave\_points} is a major sign of cancer shape irregularity. 
+
+Even though some high features appear in both groups, malignant cases usually have higher intensity and more frequent occurrence of these “high” values. 
+So the pattern mining results match what is known in medical literature — tumors that are larger and have more concave shapes tend to be malignant.
+
+\subsection{Conclusion for Task 2}
+By turning continuous cancer features into simple levels and using a short GSP search, we can see clear, human-readable patterns in the data. 
+This small test shows how sequential pattern mining can help understand which feature combinations are common in cancer diagnosis, without using complex models.
+
 \pagebreak
 \section{Task 3: Open Advanced Task}
 

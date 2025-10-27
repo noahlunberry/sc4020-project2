@@ -1,0 +1,1203 @@
+class,len,pattern,support
+Benign,1,<{radius_worst_high}>,0.844
+Benign,1,<{concave points_worst_high}>,0.84
+Benign,1,<{perimeter_worst_high}>,0.84
+Benign,1,<{area_worst_high}>,0.835
+Benign,1,<{concave points_mean_high}>,0.816
+Benign,1,<{perimeter_mean_high}>,0.797
+Benign,1,<{radius_mean_high}>,0.788
+Benign,1,<{concavity_mean_high}>,0.788
+Benign,1,<{area_mean_high}>,0.788
+Benign,1,<{area_se_high}>,0.774
+Benign,1,<{concavity_worst_high}>,0.741
+Benign,1,<{perimeter_se_high}>,0.708
+Benign,1,<{radius_se_high}>,0.708
+Benign,1,<{compactness_mean_high}>,0.684
+Benign,1,<{compactness_worst_high}>,0.684
+Benign,1,<{concave points_se_high}>,0.585
+Benign,1,<{texture_worst_high}>,0.571
+Benign,1,<{texture_mean_high}>,0.571
+Benign,1,<{concavity_se_high}>,0.561
+Benign,1,<{smoothness_worst_high}>,0.557
+Benign,1,<{symmetry_worst_high}>,0.542
+Benign,1,<{compactness_se_high}>,0.514
+Benign,1,<{smoothness_mean_high}>,0.509
+Benign,1,<{fractal_dimension_worst_high}>,0.505
+Benign,1,<{symmetry_mean_high}>,0.495
+Benign,1,<{fractal_dimension_se_high}>,0.439
+Benign,1,<{symmetry_se_low}>,0.396
+Benign,1,<{texture_se_med}>,0.392
+Benign,1,<{smoothness_se_med}>,0.368
+Benign,1,<{concavity_se_med}>,0.368
+Benign,1,<{smoothness_mean_med}>,0.368
+Benign,1,<{fractal_dimension_se_med}>,0.354
+Benign,1,<{fractal_dimension_mean_low}>,0.349
+Benign,1,<{compactness_se_med}>,0.349
+Benign,1,<{fractal_dimension_mean_high}>,0.344
+Benign,1,<{texture_worst_med}>,0.344
+Benign,1,<{concave points_se_med}>,0.344
+Benign,1,<{smoothness_se_low}>,0.33
+Benign,1,<{texture_mean_med}>,0.33
+Benign,1,<{symmetry_mean_med}>,0.33
+Benign,1,<{fractal_dimension_mean_med}>,0.307
+Benign,1,<{texture_se_high}>,0.307
+Benign,1,<{smoothness_worst_med}>,0.307
+Benign,1,<{fractal_dimension_worst_med}>,0.307
+Benign,1,<{symmetry_se_med}>,0.307
+Benign,1,<{texture_se_low}>,0.302
+Benign,1,<{smoothness_se_high}>,0.302
+Benign,1,<{symmetry_se_high}>,0.297
+Benign,1,<{symmetry_worst_med}>,0.292
+Benign,1,<{compactness_worst_med}>,0.25
+Benign,2,"<{area_worst_high, radius_worst_high}>",0.835
+Benign,2,"<{perimeter_worst_high, radius_worst_high}>",0.821
+Benign,2,"<{area_worst_high, perimeter_worst_high}>",0.811
+Benign,2,"<{perimeter_mean_high, radius_mean_high}>",0.783
+Benign,2,"<{area_mean_high, radius_mean_high}>",0.783
+Benign,2,"<{concave points_mean_high, concave points_worst_high}>",0.783
+Benign,2,"<{area_worst_high, perimeter_mean_high}>",0.783
+Benign,2,"<{perimeter_mean_high, radius_worst_high}>",0.783
+Benign,2,"<{perimeter_mean_high, perimeter_worst_high}>",0.783
+Benign,2,"<{area_mean_high, perimeter_mean_high}>",0.778
+Benign,2,"<{area_worst_high, radius_mean_high}>",0.769
+Benign,2,"<{radius_mean_high, radius_worst_high}>",0.769
+Benign,2,"<{perimeter_worst_high, radius_mean_high}>",0.769
+Benign,2,"<{area_mean_high, area_worst_high}>",0.769
+Benign,2,"<{area_mean_high, radius_worst_high}>",0.769
+Benign,2,"<{area_mean_high, perimeter_worst_high}>",0.769
+Benign,2,"<{concave points_worst_high, concavity_mean_high}>",0.75
+Benign,2,"<{concave points_mean_high, concavity_mean_high}>",0.745
+Benign,2,"<{area_se_high, area_worst_high}>",0.736
+Benign,2,"<{area_se_high, radius_worst_high}>",0.736
+Benign,2,"<{concave points_worst_high, perimeter_worst_high}>",0.736
+Benign,2,"<{concave points_mean_high, perimeter_worst_high}>",0.731
+Benign,2,"<{concave points_mean_high, radius_worst_high}>",0.726
+Benign,2,"<{concave points_worst_high, radius_worst_high}>",0.726
+Benign,2,"<{area_worst_high, concave points_mean_high}>",0.722
+Benign,2,"<{area_worst_high, concave points_worst_high}>",0.722
+Benign,2,"<{area_se_high, perimeter_worst_high}>",0.712
+Benign,2,"<{concave points_mean_high, perimeter_mean_high}>",0.703
+Benign,2,"<{concave points_worst_high, concavity_worst_high}>",0.703
+Benign,2,"<{area_se_high, radius_mean_high}>",0.698
+Benign,2,"<{area_se_high, perimeter_mean_high}>",0.698
+Benign,2,"<{area_mean_high, area_se_high}>",0.698
+Benign,2,"<{concavity_mean_high, concavity_worst_high}>",0.693
+Benign,2,"<{concavity_mean_high, perimeter_worst_high}>",0.693
+Benign,2,"<{concave points_worst_high, perimeter_mean_high}>",0.693
+Benign,2,"<{area_se_high, radius_se_high}>",0.693
+Benign,2,"<{concave points_mean_high, radius_mean_high}>",0.689
+Benign,2,"<{area_mean_high, concave points_mean_high}>",0.684
+Benign,2,"<{concave points_worst_high, radius_mean_high}>",0.679
+Benign,2,"<{concavity_mean_high, radius_worst_high}>",0.679
+Benign,2,"<{area_mean_high, concave points_worst_high}>",0.679
+Benign,2,"<{area_worst_high, concavity_mean_high}>",0.675
+Benign,2,"<{concave points_mean_high, concavity_worst_high}>",0.675
+Benign,2,"<{area_se_high, perimeter_se_high}>",0.67
+Benign,2,"<{perimeter_se_high, radius_se_high}>",0.67
+Benign,2,"<{radius_se_high, radius_worst_high}>",0.67
+Benign,2,"<{area_se_high, concave points_mean_high}>",0.665
+Benign,2,"<{area_worst_high, radius_se_high}>",0.665
+Benign,2,"<{concavity_mean_high, perimeter_mean_high}>",0.66
+Benign,2,"<{perimeter_se_high, radius_worst_high}>",0.66
+Benign,2,"<{compactness_mean_high, concave points_worst_high}>",0.66
+Benign,2,"<{area_se_high, concave points_worst_high}>",0.66
+Benign,2,"<{area_worst_high, perimeter_se_high}>",0.656
+Benign,2,"<{perimeter_se_high, perimeter_worst_high}>",0.656
+Benign,2,"<{perimeter_worst_high, radius_se_high}>",0.651
+Benign,2,"<{concavity_mean_high, radius_mean_high}>",0.646
+Benign,2,"<{compactness_mean_high, concavity_mean_high}>",0.646
+Benign,2,"<{compactness_mean_high, concave points_mean_high}>",0.646
+Benign,2,"<{compactness_worst_high, concave points_worst_high}>",0.646
+Benign,2,"<{area_mean_high, concavity_mean_high}>",0.642
+Benign,2,"<{concavity_worst_high, perimeter_worst_high}>",0.642
+Benign,2,"<{area_mean_high, perimeter_se_high}>",0.642
+Benign,2,"<{perimeter_se_high, radius_mean_high}>",0.637
+Benign,2,"<{concave points_mean_high, perimeter_se_high}>",0.637
+Benign,2,"<{perimeter_mean_high, perimeter_se_high}>",0.637
+Benign,2,"<{area_se_high, concavity_mean_high}>",0.632
+Benign,2,"<{area_mean_high, radius_se_high}>",0.632
+Benign,2,"<{radius_mean_high, radius_se_high}>",0.627
+Benign,2,"<{concavity_worst_high, radius_worst_high}>",0.627
+Benign,2,"<{compactness_worst_high, concavity_worst_high}>",0.627
+Benign,2,"<{concave points_worst_high, perimeter_se_high}>",0.627
+Benign,2,"<{perimeter_mean_high, radius_se_high}>",0.627
+Benign,2,"<{concave points_mean_high, radius_se_high}>",0.623
+Benign,2,"<{area_worst_high, concavity_worst_high}>",0.618
+Benign,2,"<{compactness_worst_high, concavity_mean_high}>",0.613
+Benign,2,"<{compactness_mean_high, concavity_worst_high}>",0.613
+Benign,2,"<{concave points_worst_high, radius_se_high}>",0.613
+Benign,2,"<{compactness_worst_high, concave points_mean_high}>",0.608
+Benign,2,"<{compactness_mean_high, compactness_worst_high}>",0.608
+Benign,2,"<{concavity_mean_high, perimeter_se_high}>",0.604
+Benign,2,"<{concavity_worst_high, perimeter_mean_high}>",0.594
+Benign,2,"<{concavity_mean_high, radius_se_high}>",0.59
+Benign,2,"<{compactness_mean_high, perimeter_worst_high}>",0.585
+Benign,2,"<{concavity_worst_high, radius_mean_high}>",0.58
+Benign,2,"<{area_mean_high, concavity_worst_high}>",0.58
+Benign,2,"<{compactness_mean_high, radius_worst_high}>",0.58
+Benign,2,"<{compactness_worst_high, perimeter_worst_high}>",0.58
+Benign,2,"<{area_worst_high, compactness_mean_high}>",0.575
+Benign,2,"<{compactness_worst_high, radius_worst_high}>",0.571
+Benign,2,"<{area_worst_high, compactness_worst_high}>",0.561
+Benign,2,"<{area_se_high, concavity_worst_high}>",0.557
+Benign,2,"<{compactness_mean_high, perimeter_mean_high}>",0.552
+Benign,2,"<{compactness_mean_high, radius_mean_high}>",0.538
+Benign,2,"<{area_se_high, compactness_mean_high}>",0.538
+Benign,2,"<{concave points_mean_high, concave points_se_high}>",0.533
+Benign,2,"<{concave points_se_high, concave points_worst_high}>",0.533
+Benign,2,"<{concavity_worst_high, perimeter_se_high}>",0.533
+Benign,2,"<{compactness_worst_high, perimeter_mean_high}>",0.533
+Benign,2,"<{area_mean_high, compactness_mean_high}>",0.533
+Benign,2,"<{concavity_mean_high, concavity_se_high}>",0.528
+Benign,2,"<{concave points_worst_high, smoothness_worst_high}>",0.528
+Benign,2,"<{concave points_worst_high, concavity_se_high}>",0.524
+Benign,2,"<{compactness_worst_high, radius_mean_high}>",0.519
+Benign,2,"<{concavity_worst_high, radius_se_high}>",0.519
+Benign,2,"<{concave points_mean_high, concavity_se_high}>",0.514
+Benign,2,"<{compactness_mean_high, perimeter_se_high}>",0.514
+Benign,2,"<{area_mean_high, compactness_worst_high}>",0.514
+Benign,2,"<{concavity_worst_high, smoothness_worst_high}>",0.505
+Benign,2,"<{compactness_mean_high, radius_se_high}>",0.505
+Benign,2,"<{area_se_high, compactness_worst_high}>",0.505
+Benign,2,"<{concave points_se_high, perimeter_se_high}>",0.5
+Benign,2,"<{concavity_se_high, concavity_worst_high}>",0.5
+Benign,2,"<{concave points_se_high, concavity_mean_high}>",0.495
+Benign,2,"<{concave points_worst_high, symmetry_worst_high}>",0.495
+Benign,2,"<{concavity_mean_high, smoothness_worst_high}>",0.491
+Benign,2,"<{concavity_mean_high, smoothness_mean_high}>",0.491
+Benign,2,"<{concave points_mean_high, smoothness_worst_high}>",0.491
+Benign,2,"<{concave points_se_high, perimeter_mean_high}>",0.491
+Benign,2,"<{concave points_se_high, perimeter_worst_high}>",0.491
+Benign,2,"<{concave points_worst_high, fractal_dimension_worst_high}>",0.491
+Benign,2,"<{concave points_worst_high, smoothness_mean_high}>",0.491
+Benign,2,"<{concave points_se_high, radius_mean_high}>",0.486
+Benign,2,"<{concave points_se_high, radius_worst_high}>",0.486
+Benign,2,"<{area_mean_high, concave points_se_high}>",0.486
+Benign,2,"<{concave points_mean_high, smoothness_mean_high}>",0.486
+Benign,2,"<{compactness_worst_high, fractal_dimension_worst_high}>",0.486
+Benign,2,"<{radius_worst_high, texture_worst_high}>",0.481
+Benign,2,"<{concave points_worst_high, texture_worst_high}>",0.481
+Benign,2,"<{area_worst_high, concave points_se_high}>",0.481
+Benign,2,"<{area_se_high, concave points_se_high}>",0.481
+Benign,2,"<{compactness_se_high, concave points_worst_high}>",0.481
+Benign,2,"<{compactness_worst_high, symmetry_worst_high}>",0.481
+Benign,2,"<{compactness_mean_high, concavity_se_high}>",0.481
+Benign,2,"<{compactness_mean_high, smoothness_mean_high}>",0.481
+Benign,2,"<{concavity_worst_high, symmetry_worst_high}>",0.476
+Benign,2,"<{compactness_worst_high, perimeter_se_high}>",0.476
+Benign,2,"<{concave points_worst_high, texture_mean_high}>",0.476
+Benign,2,"<{concavity_se_high, perimeter_worst_high}>",0.476
+Benign,2,"<{area_worst_high, texture_worst_high}>",0.472
+Benign,2,"<{perimeter_worst_high, texture_worst_high}>",0.472
+Benign,2,"<{compactness_se_high, concavity_mean_high}>",0.472
+Benign,2,"<{concavity_mean_high, texture_mean_high}>",0.472
+Benign,2,"<{compactness_worst_high, smoothness_worst_high}>",0.472
+Benign,2,"<{concave points_se_high, radius_se_high}>",0.472
+Benign,2,"<{compactness_se_high, concave points_mean_high}>",0.472
+Benign,2,"<{compactness_mean_high, compactness_se_high}>",0.472
+Benign,2,"<{concavity_worst_high, fractal_dimension_worst_high}>",0.472
+Benign,2,"<{concavity_worst_high, smoothness_mean_high}>",0.472
+Benign,2,"<{concavity_se_high, perimeter_mean_high}>",0.472
+Benign,2,"<{radius_worst_high, texture_mean_high}>",0.472
+Benign,2,"<{texture_mean_high, texture_worst_high}>",0.467
+Benign,2,"<{concave points_mean_high, symmetry_worst_high}>",0.467
+Benign,2,"<{concavity_se_high, radius_worst_high}>",0.467
+Benign,2,"<{compactness_worst_high, radius_se_high}>",0.467
+Benign,2,"<{concavity_mean_high, texture_worst_high}>",0.462
+Benign,2,"<{concavity_se_high, radius_mean_high}>",0.462
+Benign,2,"<{concavity_mean_high, symmetry_worst_high}>",0.462
+Benign,2,"<{concave points_mean_high, texture_mean_high}>",0.462
+Benign,2,"<{area_worst_high, texture_mean_high}>",0.462
+Benign,2,"<{area_worst_high, concavity_se_high}>",0.462
+Benign,2,"<{perimeter_worst_high, texture_mean_high}>",0.462
+Benign,2,"<{area_mean_high, concavity_se_high}>",0.462
+Benign,2,"<{concavity_worst_high, texture_worst_high}>",0.458
+Benign,2,"<{concavity_mean_high, symmetry_mean_high}>",0.458
+Benign,2,"<{compactness_se_high, concavity_worst_high}>",0.458
+Benign,2,"<{compactness_se_high, concavity_se_high}>",0.458
+Benign,2,"<{concave points_mean_high, fractal_dimension_worst_high}>",0.458
+Benign,2,"<{concavity_se_high, perimeter_se_high}>",0.458
+Benign,2,"<{compactness_mean_high, fractal_dimension_worst_high}>",0.458
+Benign,2,"<{compactness_mean_high, symmetry_mean_high}>",0.458
+Benign,2,"<{concave points_worst_high, symmetry_mean_high}>",0.458
+Benign,2,"<{concave points_mean_high, texture_worst_high}>",0.453
+Benign,2,"<{concavity_mean_high, fractal_dimension_worst_high}>",0.453
+Benign,2,"<{perimeter_worst_high, smoothness_worst_high}>",0.453
+Benign,2,"<{compactness_se_high, compactness_worst_high}>",0.453
+Benign,2,"<{compactness_mean_high, symmetry_worst_high}>",0.453
+Benign,2,"<{radius_worst_high, symmetry_worst_high}>",0.453
+Benign,2,"<{concave points_mean_high, symmetry_mean_high}>",0.453
+Benign,2,"<{perimeter_mean_high, texture_mean_high}>",0.453
+Benign,2,"<{area_se_high, texture_mean_high}>",0.453
+Benign,2,"<{area_se_high, concavity_se_high}>",0.453
+Benign,2,"<{radius_worst_high, smoothness_worst_high}>",0.448
+Benign,2,"<{compactness_mean_high, concave points_se_high}>",0.448
+Benign,2,"<{perimeter_worst_high, symmetry_worst_high}>",0.448
+Benign,2,"<{concavity_worst_high, texture_mean_high}>",0.448
+Benign,2,"<{compactness_worst_high, concavity_se_high}>",0.448
+Benign,2,"<{radius_mean_high, texture_mean_high}>",0.443
+Benign,2,"<{compactness_mean_high, smoothness_worst_high}>",0.443
+Benign,2,"<{area_worst_high, symmetry_worst_high}>",0.443
+Benign,2,"<{compactness_worst_high, smoothness_mean_high}>",0.443
+Benign,2,"<{area_worst_high, smoothness_worst_high}>",0.439
+Benign,2,"<{concave points_se_high, concavity_worst_high}>",0.439
+Benign,2,"<{concave points_se_high, concavity_se_high}>",0.439
+Benign,2,"<{area_mean_high, texture_mean_high}>",0.439
+Benign,2,"<{concavity_se_high, radius_se_high}>",0.439
+Benign,2,"<{compactness_worst_high, texture_worst_high}>",0.434
+Benign,2,"<{area_se_high, texture_worst_high}>",0.429
+Benign,2,"<{compactness_worst_high, concave points_se_high}>",0.429
+Benign,2,"<{compactness_se_high, perimeter_worst_high}>",0.429
+Benign,2,"<{compactness_worst_high, symmetry_mean_high}>",0.429
+Benign,2,"<{compactness_se_high, radius_worst_high}>",0.425
+Benign,2,"<{concavity_worst_high, symmetry_mean_high}>",0.425
+Benign,2,"<{radius_se_high, texture_mean_high}>",0.425
+Benign,2,"<{perimeter_mean_high, texture_worst_high}>",0.42
+Benign,2,"<{area_worst_high, compactness_se_high}>",0.42
+Benign,2,"<{perimeter_se_high, texture_mean_high}>",0.42
+Benign,2,"<{concave points_worst_high, fractal_dimension_se_high}>",0.42
+Benign,2,"<{smoothness_mean_high, smoothness_worst_high}>",0.415
+Benign,2,"<{symmetry_mean_high, symmetry_worst_high}>",0.415
+Benign,2,"<{concave points_mean_high, fractal_dimension_se_high}>",0.415
+Benign,2,"<{area_worst_high, smoothness_mean_high}>",0.415
+Benign,2,"<{radius_worst_high, smoothness_mean_high}>",0.415
+Benign,2,"<{perimeter_worst_high, smoothness_mean_high}>",0.415
+Benign,2,"<{concavity_mean_high, fractal_dimension_se_high}>",0.41
+Benign,2,"<{compactness_se_high, perimeter_se_high}>",0.41
+Benign,2,"<{compactness_se_high, perimeter_mean_high}>",0.41
+Benign,2,"<{compactness_worst_high, texture_mean_high}>",0.41
+Benign,2,"<{radius_mean_high, texture_worst_high}>",0.406
+Benign,2,"<{area_mean_high, texture_worst_high}>",0.406
+Benign,2,"<{perimeter_mean_high, smoothness_worst_high}>",0.406
+Benign,2,"<{area_se_high, compactness_se_high}>",0.406
+Benign,2,"<{perimeter_mean_high, symmetry_worst_high}>",0.406
+Benign,2,"<{radius_worst_high, symmetry_mean_high}>",0.406
+Benign,2,"<{perimeter_worst_high, symmetry_mean_high}>",0.406
+Benign,2,"<{radius_se_high, texture_worst_high}>",0.401
+Benign,2,"<{compactness_se_high, concave points_se_high}>",0.401
+Benign,2,"<{area_worst_high, symmetry_mean_high}>",0.401
+Benign,2,"<{compactness_mean_high, fractal_dimension_se_high}>",0.401
+Benign,2,"<{fractal_dimension_worst_high, perimeter_worst_high}>",0.401
+Benign,2,"<{compactness_se_high, radius_mean_high}>",0.396
+Benign,2,"<{radius_mean_high, symmetry_worst_high}>",0.396
+Benign,2,"<{smoothness_worst_high, symmetry_worst_high}>",0.396
+Benign,2,"<{area_se_high, smoothness_worst_high}>",0.396
+Benign,2,"<{area_mean_high, compactness_se_high}>",0.396
+Benign,2,"<{area_se_high, symmetry_worst_high}>",0.396
+Benign,2,"<{fractal_dimension_worst_high, radius_worst_high}>",0.396
+Benign,2,"<{radius_mean_high, smoothness_worst_high}>",0.392
+Benign,2,"<{fractal_dimension_worst_high, smoothness_worst_high}>",0.392
+Benign,2,"<{area_mean_high, smoothness_worst_high}>",0.392
+Benign,2,"<{compactness_se_high, radius_se_high}>",0.392
+Benign,2,"<{area_mean_high, symmetry_worst_high}>",0.392
+Benign,2,"<{area_worst_high, fractal_dimension_worst_high}>",0.392
+Benign,2,"<{compactness_mean_high, texture_worst_high}>",0.387
+Benign,2,"<{concavity_worst_high, fractal_dimension_se_high}>",0.387
+Benign,2,"<{perimeter_mean_high, smoothness_mean_high}>",0.387
+Benign,2,"<{compactness_mean_high, texture_mean_high}>",0.387
+Benign,2,"<{area_se_high, smoothness_mean_high}>",0.387
+Benign,2,"<{perimeter_se_high, texture_worst_high}>",0.382
+Benign,2,"<{compactness_se_high, fractal_dimension_se_high}>",0.382
+Benign,2,"<{area_se_high, symmetry_mean_high}>",0.382
+Benign,2,"<{fractal_dimension_worst_high, symmetry_worst_high}>",0.377
+Benign,2,"<{perimeter_se_high, smoothness_mean_high}>",0.377
+Benign,2,"<{compactness_worst_high, fractal_dimension_se_high}>",0.377
+Benign,2,"<{concavity_se_high, fractal_dimension_se_high}>",0.377
+Benign,2,"<{radius_mean_high, smoothness_mean_high}>",0.373
+Benign,2,"<{perimeter_se_high, smoothness_worst_high}>",0.373
+Benign,2,"<{radius_se_high, symmetry_worst_high}>",0.373
+Benign,2,"<{perimeter_mean_high, symmetry_mean_high}>",0.373
+Benign,2,"<{fractal_dimension_worst_high, smoothness_mean_high}>",0.373
+Benign,2,"<{concavity_se_high, texture_mean_high}>",0.373
+Benign,2,"<{smoothness_mean_high, symmetry_mean_high}>",0.373
+Benign,2,"<{radius_se_high, smoothness_worst_high}>",0.368
+Benign,2,"<{fractal_dimension_se_high, perimeter_worst_high}>",0.368
+Benign,2,"<{area_mean_high, smoothness_mean_high}>",0.368
+Benign,2,"<{radius_se_high, smoothness_mean_high}>",0.368
+Benign,2,"<{radius_se_high, symmetry_mean_high}>",0.363
+Benign,2,"<{radius_mean_high, symmetry_mean_high}>",0.358
+Benign,2,"<{perimeter_se_high, symmetry_worst_high}>",0.358
+Benign,2,"<{perimeter_se_high, symmetry_mean_high}>",0.358
+Benign,2,"<{fractal_dimension_worst_high, perimeter_mean_high}>",0.358
+Benign,2,"<{concavity_se_high, smoothness_mean_high}>",0.358
+Benign,2,"<{smoothness_worst_high, texture_worst_high}>",0.354
+Benign,2,"<{concave points_se_high, fractal_dimension_se_high}>",0.354
+Benign,2,"<{compactness_se_high, fractal_dimension_worst_high}>",0.354
+Benign,2,"<{smoothness_mean_high, symmetry_worst_high}>",0.354
+Benign,2,"<{fractal_dimension_se_high, radius_worst_high}>",0.354
+Benign,2,"<{area_mean_high, symmetry_mean_high}>",0.354
+Benign,2,"<{area_worst_high, fractal_dimension_se_high}>",0.349
+Benign,2,"<{fractal_dimension_se_high, perimeter_se_high}>",0.349
+Benign,2,"<{radius_worst_high}, {texture_se_med}>",0.349
+Benign,2,"<{perimeter_worst_high}, {texture_se_med}>",0.349
+Benign,2,"<{fractal_dimension_worst_high, radius_mean_high}>",0.344
+Benign,2,"<{compactness_se_high, texture_mean_high}>",0.344
+Benign,2,"<{compactness_se_high, symmetry_mean_high}>",0.344
+Benign,2,"<{area_worst_high}, {texture_se_med}>",0.344
+Benign,2,"<{concavity_se_high, fractal_dimension_worst_high}>",0.344
+Benign,2,"<{radius_worst_high}, {symmetry_se_low}>",0.344
+Benign,2,"<{concavity_se_high, symmetry_mean_high}>",0.344
+Benign,2,"<{symmetry_worst_high, texture_worst_high}>",0.34
+Benign,2,"<{smoothness_worst_high, symmetry_mean_high}>",0.34
+Benign,2,"<{concave points_se_high, texture_mean_high}>",0.34
+Benign,2,"<{area_worst_high}, {symmetry_se_low}>",0.34
+Benign,2,"<{fractal_dimension_se_high, perimeter_mean_high}>",0.34
+Benign,2,"<{area_se_high, fractal_dimension_se_high}>",0.34
+Benign,2,"<{area_mean_high, fractal_dimension_worst_high}>",0.34
+Benign,2,"<{perimeter_worst_high}, {symmetry_se_low}>",0.34
+Benign,2,"<{concavity_se_high, smoothness_worst_high}>",0.335
+Benign,2,"<{compactness_mean_high, fractal_dimension_mean_high}>",0.335
+Benign,2,"<{concave points_worst_high, fractal_dimension_mean_high}>",0.335
+Benign,2,"<{compactness_se_high, smoothness_mean_high}>",0.335
+Benign,2,"<{area_se_high, fractal_dimension_worst_high}>",0.335
+Benign,2,"<{fractal_dimension_worst_high, symmetry_mean_high}>",0.335
+Benign,2,"<{fractal_dimension_worst_high, texture_worst_high}>",0.33
+Benign,2,"<{fractal_dimension_se_high, radius_mean_high}>",0.33
+Benign,2,"<{fractal_dimension_mean_high, fractal_dimension_worst_high}>",0.33
+Benign,2,"<{compactness_worst_high, fractal_dimension_mean_high}>",0.33
+Benign,2,"<{area_worst_high}, {fractal_dimension_mean_low}>",0.33
+Benign,2,"<{area_worst_high}, {concavity_se_med}>",0.33
+Benign,2,"<{fractal_dimension_worst_high, perimeter_se_high}>",0.33
+Benign,2,"<{fractal_dimension_se_high, fractal_dimension_worst_high}>",0.33
+Benign,2,"<{area_mean_high, fractal_dimension_se_high}>",0.33
+Benign,2,"<{fractal_dimension_se_high, radius_se_high}>",0.33
+Benign,2,"<{radius_worst_high}, {fractal_dimension_mean_low}>",0.33
+Benign,2,"<{radius_worst_high}, {concavity_se_med}>",0.33
+Benign,2,"<{radius_mean_high}, {fractal_dimension_mean_low}>",0.325
+Benign,2,"<{concavity_mean_high, fractal_dimension_mean_high}>",0.325
+Benign,2,"<{concave points_se_high, smoothness_mean_high}>",0.325
+Benign,2,"<{concave points_se_high, symmetry_mean_high}>",0.325
+Benign,2,"<{concavity_worst_high, fractal_dimension_mean_high}>",0.325
+Benign,2,"<{compactness_se_high, symmetry_worst_high}>",0.325
+Benign,2,"<{area_mean_high}, {fractal_dimension_mean_low}>",0.325
+Benign,2,"<{concave points_mean_high, fractal_dimension_mean_high}>",0.321
+Benign,2,"<{concavity_se_high, symmetry_worst_high}>",0.321
+Benign,2,"<{perimeter_mean_high}, {fractal_dimension_mean_low}>",0.321
+Benign,2,"<{concave points_worst_high}, {texture_se_med}>",0.321
+Benign,2,"<{area_mean_high}, {symmetry_se_low}>",0.321
+Benign,2,"<{perimeter_worst_high}, {smoothness_mean_med}>",0.321
+Benign,2,"<{concavity_se_high, texture_worst_high}>",0.316
+Benign,2,"<{radius_mean_high}, {symmetry_se_low}>",0.316
+Benign,2,"<{fractal_dimension_mean_high, smoothness_mean_high}>",0.316
+Benign,2,"<{perimeter_mean_high}, {texture_se_med}>",0.316
+Benign,2,"<{perimeter_mean_high}, {symmetry_se_low}>",0.316
+Benign,2,"<{fractal_dimension_worst_high, radius_se_high}>",0.316
+Benign,2,"<{area_se_high}, {fractal_dimension_mean_low}>",0.316
+Benign,2,"<{radius_worst_high}, {smoothness_mean_med}>",0.316
+Benign,2,"<{perimeter_worst_high}, {fractal_dimension_mean_low}>",0.316
+Benign,2,"<{perimeter_worst_high}, {concavity_se_med}>",0.316
+Benign,2,"<{radius_mean_high}, {texture_worst_med}>",0.311
+Benign,2,"<{fractal_dimension_se_high, smoothness_mean_high}>",0.311
+Benign,2,"<{concave points_worst_high}, {smoothness_se_med}>",0.311
+Benign,2,"<{concave points_worst_high}, {symmetry_se_low}>",0.311
+Benign,2,"<{area_mean_high}, {texture_worst_med}>",0.311
+Benign,2,"<{concave points_se_high, smoothness_worst_high}>",0.307
+Benign,2,"<{compactness_se_high, smoothness_worst_high}>",0.307
+Benign,2,"<{concave points_mean_high}, {smoothness_se_med}>",0.307
+Benign,2,"<{concave points_mean_high}, {texture_se_med}>",0.307
+Benign,2,"<{area_worst_high}, {compactness_se_med}>",0.307
+Benign,2,"<{area_worst_high}, {smoothness_mean_med}>",0.307
+Benign,2,"<{fractal_dimension_se_high, symmetry_mean_high}>",0.307
+Benign,2,"<{perimeter_mean_high}, {texture_worst_med}>",0.307
+Benign,2,"<{area_se_high}, {texture_se_med}>",0.307
+Benign,2,"<{radius_worst_high}, {compactness_se_med}>",0.307
+Benign,2,"<{area_mean_high}, {smoothness_mean_med}>",0.307
+Benign,2,"<{perimeter_worst_high}, {smoothness_se_low}>",0.307
+Benign,2,"<{perimeter_worst_high}, {compactness_se_med}>",0.307
+Benign,2,"<{perimeter_worst_high}, {texture_mean_med}>",0.307
+Benign,2,"<{compactness_se_high, texture_worst_high}>",0.302
+Benign,2,"<{radius_mean_high}, {texture_se_med}>",0.302
+Benign,2,"<{radius_mean_high}, {smoothness_mean_med}>",0.302
+Benign,2,"<{concavity_mean_high}, {texture_se_med}>",0.302
+Benign,2,"<{smoothness_worst_high, texture_mean_high}>",0.302
+Benign,2,"<{concave points_se_high, fractal_dimension_worst_high}>",0.302
+Benign,2,"<{area_worst_high}, {fractal_dimension_se_med}>",0.302
+Benign,2,"<{area_worst_high}, {smoothness_se_med}>",0.302
+Benign,2,"<{area_worst_high}, {texture_mean_med}>",0.302
+Benign,2,"<{area_worst_high}, {concave points_se_med}>",0.302
+Benign,2,"<{area_se_high}, {smoothness_se_med}>",0.302
+Benign,2,"<{radius_worst_high}, {fractal_dimension_se_med}>",0.302
+Benign,2,"<{radius_worst_high}, {smoothness_se_med}>",0.302
+Benign,2,"<{radius_worst_high}, {smoothness_se_low}>",0.302
+Benign,2,"<{radius_worst_high}, {texture_mean_med}>",0.302
+Benign,2,"<{radius_worst_high}, {concave points_se_med}>",0.302
+Benign,2,"<{concave points_worst_high}, {compactness_se_med}>",0.302
+Benign,2,"<{concave points_worst_high}, {smoothness_mean_med}>",0.302
+Benign,2,"<{area_mean_high}, {texture_se_med}>",0.302
+Benign,2,"<{perimeter_worst_high}, {smoothness_se_med}>",0.302
+Benign,2,"<{concave points_se_high, texture_worst_high}>",0.297
+Benign,2,"<{symmetry_worst_high, texture_mean_high}>",0.297
+Benign,2,"<{concave points_mean_high}, {concavity_se_med}>",0.297
+Benign,2,"<{concave points_mean_high}, {compactness_se_med}>",0.297
+Benign,2,"<{area_worst_high}, {smoothness_se_low}>",0.297
+Benign,2,"<{perimeter_mean_high}, {smoothness_mean_med}>",0.297
+Benign,2,"<{fractal_dimension_worst_high, texture_mean_high}>",0.297
+Benign,2,"<{concave points_worst_high}, {concavity_se_med}>",0.297
+Benign,2,"<{perimeter_worst_high}, {texture_worst_med}>",0.297
+Benign,2,"<{smoothness_mean_high, texture_worst_high}>",0.292
+Benign,2,"<{radius_mean_high}, {compactness_se_med}>",0.292
+Benign,2,"<{radius_mean_high}, {symmetry_mean_med}>",0.292
+Benign,2,"<{concavity_mean_high}, {smoothness_se_med}>",0.292
+Benign,2,"<{concave points_mean_high}, {texture_worst_med}>",0.292
+Benign,2,"<{concavity_worst_high}, {texture_se_med}>",0.292
+Benign,2,"<{area_worst_high}, {texture_worst_med}>",0.292
+Benign,2,"<{perimeter_mean_high}, {compactness_se_med}>",0.292
+Benign,2,"<{perimeter_mean_high}, {symmetry_mean_med}>",0.292
+Benign,2,"<{area_se_high}, {concavity_se_med}>",0.292
+Benign,2,"<{area_se_high}, {symmetry_se_low}>",0.292
+Benign,2,"<{area_se_high}, {smoothness_mean_med}>",0.292
+Benign,2,"<{radius_worst_high}, {texture_worst_med}>",0.292
+Benign,2,"<{area_mean_high}, {symmetry_mean_med}>",0.292
+Benign,2,"<{perimeter_worst_high}, {fractal_dimension_se_med}>",0.292
+Benign,2,"<{perimeter_worst_high}, {fractal_dimension_worst_med}>",0.292
+Benign,2,"<{perimeter_worst_high}, {concave points_se_med}>",0.292
+Benign,2,"<{symmetry_mean_high, texture_worst_high}>",0.288
+Benign,2,"<{radius_mean_high}, {smoothness_se_med}>",0.288
+Benign,2,"<{concave points_mean_high}, {smoothness_mean_med}>",0.288
+Benign,2,"<{perimeter_mean_high}, {fractal_dimension_se_med}>",0.288
+Benign,2,"<{perimeter_mean_high}, {smoothness_se_med}>",0.288
+Benign,2,"<{radius_worst_high}, {fractal_dimension_worst_med}>",0.288
+Benign,2,"<{radius_worst_high}, {symmetry_mean_med}>",0.288
+Benign,2,"<{compactness_worst_high}, {texture_se_med}>",0.288
+Benign,2,"<{concave points_worst_high}, {texture_worst_med}>",0.288
+Benign,2,"<{area_mean_high}, {smoothness_se_med}>",0.288
+Benign,2,"<{area_mean_high}, {fractal_dimension_worst_med}>",0.288
+Benign,2,"<{area_mean_high}, {compactness_se_med}>",0.288
+Benign,2,"<{perimeter_worst_high}, {symmetry_mean_med}>",0.288
+Benign,2,"<{radius_mean_high}, {fractal_dimension_se_med}>",0.283
+Benign,2,"<{radius_mean_high}, {fractal_dimension_worst_med}>",0.283
+Benign,2,"<{concavity_mean_high}, {compactness_se_med}>",0.283
+Benign,2,"<{concave points_se_high, symmetry_worst_high}>",0.283
+Benign,2,"<{concave points_mean_high}, {symmetry_se_low}>",0.283
+Benign,2,"<{area_worst_high}, {fractal_dimension_worst_med}>",0.283
+Benign,2,"<{area_worst_high}, {symmetry_mean_med}>",0.283
+Benign,2,"<{perimeter_se_high}, {smoothness_se_med}>",0.283
+Benign,2,"<{perimeter_mean_high}, {concavity_se_med}>",0.283
+Benign,2,"<{perimeter_mean_high}, {fractal_dimension_worst_med}>",0.283
+Benign,2,"<{concave points_worst_high}, {concave points_se_med}>",0.283
+Benign,2,"<{concave points_worst_high}, {symmetry_mean_med}>",0.283
+Benign,2,"<{radius_mean_high}, {concavity_se_med}>",0.278
+Benign,2,"<{concavity_mean_high}, {concave points_se_med}>",0.278
+Benign,2,"<{fractal_dimension_mean_high, smoothness_worst_high}>",0.278
+Benign,2,"<{concave points_mean_high}, {symmetry_mean_med}>",0.278
+Benign,2,"<{concavity_worst_high}, {smoothness_se_med}>",0.278
+Benign,2,"<{perimeter_se_high}, {texture_worst_med}>",0.278
+Benign,2,"<{perimeter_mean_high}, {smoothness_se_low}>",0.278
+Benign,2,"<{area_se_high}, {fractal_dimension_se_med}>",0.278
+Benign,2,"<{smoothness_mean_high, texture_mean_high}>",0.278
+Benign,2,"<{symmetry_mean_high, texture_mean_high}>",0.278
+Benign,2,"<{concave points_worst_high}, {fractal_dimension_se_med}>",0.278
+Benign,2,"<{concave points_worst_high}, {texture_mean_med}>",0.278
+Benign,2,"<{area_mean_high}, {fractal_dimension_se_med}>",0.278
+Benign,2,"<{area_mean_high}, {concavity_se_med}>",0.278
+Benign,2,"<{area_mean_high}, {texture_mean_med}>",0.278
+Benign,2,"<{radius_se_high}, {smoothness_se_med}>",0.278
+Benign,2,"<{radius_se_high}, {fractal_dimension_mean_low}>",0.278
+Benign,2,"<{radius_mean_high}, {smoothness_se_low}>",0.274
+Benign,2,"<{radius_mean_high}, {texture_mean_med}>",0.274
+Benign,2,"<{concavity_mean_high, symmetry_se_high}>",0.274
+Benign,2,"<{fractal_dimension_se_high, smoothness_worst_high}>",0.274
+Benign,2,"<{compactness_se_high, fractal_dimension_mean_high}>",0.274
+Benign,2,"<{fractal_dimension_mean_high, fractal_dimension_se_high}>",0.274
+Benign,2,"<{fractal_dimension_mean_high, symmetry_mean_high}>",0.274
+Benign,2,"<{fractal_dimension_se_high, symmetry_worst_high}>",0.274
+Benign,2,"<{concave points_mean_high}, {fractal_dimension_se_med}>",0.274
+Benign,2,"<{concave points_mean_high}, {texture_mean_med}>",0.274
+Benign,2,"<{concavity_worst_high}, {symmetry_se_low}>",0.274
+Benign,2,"<{area_worst_high}, {smoothness_worst_med}>",0.274
+Benign,2,"<{fractal_dimension_se_high, texture_mean_high}>",0.274
+Benign,2,"<{perimeter_mean_high}, {texture_mean_med}>",0.274
+Benign,2,"<{area_se_high}, {texture_worst_med}>",0.274
+Benign,2,"<{area_se_high}, {fractal_dimension_worst_med}>",0.274
+Benign,2,"<{area_se_high}, {compactness_se_med}>",0.274
+Benign,2,"<{area_se_high}, {concave points_se_med}>",0.274
+Benign,2,"<{radius_worst_high}, {smoothness_worst_med}>",0.274
+Benign,2,"<{concave points_worst_high}, {symmetry_se_med}>",0.274
+Benign,2,"<{area_mean_high}, {smoothness_se_low}>",0.274
+Benign,2,"<{perimeter_worst_high}, {smoothness_worst_med}>",0.274
+Benign,2,"<{radius_mean_high}, {smoothness_worst_med}>",0.269
+Benign,2,"<{concavity_mean_high}, {symmetry_se_low}>",0.269
+Benign,2,"<{perimeter_se_high, symmetry_se_high}>",0.269
+Benign,2,"<{concave points_mean_high, smoothness_se_high}>",0.269
+Benign,2,"<{concave points_mean_high}, {concave points_se_med}>",0.269
+Benign,2,"<{concave points_mean_high}, {symmetry_se_med}>",0.269
+Benign,2,"<{perimeter_se_high}, {fractal_dimension_mean_low}>",0.269
+Benign,2,"<{perimeter_se_high}, {texture_se_med}>",0.269
+Benign,2,"<{perimeter_mean_high}, {smoothness_worst_med}>",0.269
+Benign,2,"<{compactness_worst_high}, {smoothness_se_med}>",0.269
+Benign,2,"<{concave points_worst_high, smoothness_se_high}>",0.269
+Benign,2,"<{area_mean_high}, {smoothness_worst_med}>",0.269
+Benign,2,"<{perimeter_worst_high}, {fractal_dimension_mean_med}>",0.269
+Benign,2,"<{radius_se_high}, {texture_se_med}>",0.269
+Benign,2,"<{texture_worst_high}, {texture_se_med}>",0.264
+Benign,2,"<{concavity_mean_high}, {fractal_dimension_se_med}>",0.264
+Benign,2,"<{concavity_mean_high}, {smoothness_mean_med}>",0.264
+Benign,2,"<{concave points_se_high, smoothness_se_high}>",0.264
+Benign,2,"<{fractal_dimension_mean_high, symmetry_worst_high}>",0.264
+Benign,2,"<{concave points_mean_high, symmetry_se_high}>",0.264
+Benign,2,"<{perimeter_se_high, texture_se_high}>",0.264
+Benign,2,"<{radius_se_high, texture_se_high}>",0.264
+Benign,2,"<{concavity_worst_high}, {concave points_se_med}>",0.264
+Benign,2,"<{perimeter_se_high, smoothness_se_high}>",0.264
+Benign,2,"<{compactness_mean_high}, {smoothness_se_med}>",0.264
+Benign,2,"<{compactness_mean_high}, {texture_se_med}>",0.264
+Benign,2,"<{radius_worst_high}, {fractal_dimension_mean_med}>",0.264
+Benign,2,"<{concave points_worst_high}, {texture_se_low}>",0.264
+Benign,2,"<{concavity_mean_high, texture_se_high}>",0.259
+Benign,2,"<{concavity_mean_high}, {texture_worst_med}>",0.259
+Benign,2,"<{concavity_mean_high, smoothness_se_high}>",0.259
+Benign,2,"<{concavity_se_high, symmetry_se_high}>",0.259
+Benign,2,"<{concave points_mean_high, texture_se_high}>",0.259
+Benign,2,"<{area_se_high, texture_se_high}>",0.259
+Benign,2,"<{perimeter_mean_high}, {concave points_se_med}>",0.259
+Benign,2,"<{concave points_worst_high}, {fractal_dimension_mean_med}>",0.259
+Benign,2,"<{concave points_worst_high}, {smoothness_se_low}>",0.259
+Benign,2,"<{area_mean_high}, {fractal_dimension_mean_med}>",0.259
+Benign,2,"<{perimeter_worst_high}, {texture_se_low}>",0.259
+Benign,2,"<{radius_se_high}, {smoothness_mean_med}>",0.259
+Benign,2,"<{fractal_dimension_se_high, texture_worst_high}>",0.255
+Benign,2,"<{radius_mean_high}, {fractal_dimension_mean_med}>",0.255
+Benign,2,"<{radius_mean_high}, {texture_se_low}>",0.255
+Benign,2,"<{radius_mean_high}, {concave points_se_med}>",0.255
+Benign,2,"<{concavity_mean_high}, {concavity_se_med}>",0.255
+Benign,2,"<{concavity_mean_high}, {symmetry_mean_med}>",0.255
+Benign,2,"<{concavity_se_high, fractal_dimension_mean_high}>",0.255
+Benign,2,"<{fractal_dimension_mean_high, perimeter_worst_high}>",0.255
+Benign,2,"<{concave points_worst_high, symmetry_se_high}>",0.255
+Benign,2,"<{radius_se_high, symmetry_se_high}>",0.255
+Benign,2,"<{concave points_worst_high, texture_se_high}>",0.255
+Benign,2,"<{concave points_mean_high}, {fractal_dimension_mean_med}>",0.255
+Benign,2,"<{concavity_worst_high}, {fractal_dimension_se_med}>",0.255
+Benign,2,"<{area_worst_high}, {fractal_dimension_mean_med}>",0.255
+Benign,2,"<{area_worst_high}, {texture_se_low}>",0.255
+Benign,2,"<{perimeter_mean_high}, {fractal_dimension_mean_med}>",0.255
+Benign,2,"<{perimeter_mean_high}, {texture_se_low}>",0.255
+Benign,2,"<{area_se_high}, {smoothness_worst_med}>",0.255
+Benign,2,"<{area_se_high}, {texture_mean_med}>",0.255
+Benign,2,"<{area_se_high}, {symmetry_mean_med}>",0.255
+Benign,2,"<{radius_worst_high}, {texture_se_low}>",0.255
+Benign,2,"<{area_mean_high}, {texture_se_low}>",0.255
+Benign,2,"<{area_mean_high}, {concave points_se_med}>",0.255
+Benign,2,"<{perimeter_worst_high}, {symmetry_se_med}>",0.255
+Benign,2,"<{radius_se_high}, {fractal_dimension_se_med}>",0.255
+Benign,2,"<{radius_mean_high, symmetry_se_high}>",0.25
+Benign,2,"<{area_worst_high, fractal_dimension_mean_high}>",0.25
+Benign,2,"<{fractal_dimension_mean_high, radius_worst_high}>",0.25
+Benign,2,"<{perimeter_mean_high, symmetry_se_high}>",0.25
+Benign,2,"<{area_se_high, symmetry_se_high}>",0.25
+Benign,2,"<{radius_worst_high, symmetry_se_high}>",0.25
+Benign,2,"<{area_mean_high, symmetry_se_high}>",0.25
+Benign,2,"<{concave points_mean_high}, {smoothness_worst_med}>",0.25
+Benign,2,"<{concave points_mean_high}, {fractal_dimension_worst_med}>",0.25
+Benign,2,"<{concave points_mean_high}, {texture_se_low}>",0.25
+Benign,2,"<{area_worst_high}, {symmetry_worst_med}>",0.25
+Benign,2,"<{area_worst_high}, {symmetry_se_med}>",0.25
+Benign,2,"<{perimeter_se_high}, {fractal_dimension_se_med}>",0.25
+Benign,2,"<{perimeter_se_high}, {smoothness_mean_med}>",0.25
+Benign,2,"<{radius_worst_high}, {symmetry_worst_med}>",0.25
+Benign,2,"<{radius_worst_high}, {symmetry_se_med}>",0.25
+Benign,2,"<{concavity_se_high, smoothness_se_high}>",0.25
+Benign,2,"<{perimeter_worst_high}, {symmetry_worst_med}>",0.25
+Benign,2,"<{radius_se_high}, {texture_worst_med}>",0.25
+Benign,2,"<{radius_se_high}, {concavity_se_med}>",0.25
+Malignant,1,<{radius_worst_high}>,0.844
+Malignant,1,<{concave points_worst_high}>,0.84
+Malignant,1,<{perimeter_worst_high}>,0.84
+Malignant,1,<{area_worst_high}>,0.835
+Malignant,1,<{concave points_mean_high}>,0.816
+Malignant,1,<{perimeter_mean_high}>,0.797
+Malignant,1,<{radius_mean_high}>,0.788
+Malignant,1,<{concavity_mean_high}>,0.788
+Malignant,1,<{area_mean_high}>,0.788
+Malignant,1,<{area_se_high}>,0.774
+Malignant,1,<{concavity_worst_high}>,0.741
+Malignant,1,<{perimeter_se_high}>,0.708
+Malignant,1,<{radius_se_high}>,0.708
+Malignant,1,<{compactness_mean_high}>,0.684
+Malignant,1,<{compactness_worst_high}>,0.684
+Malignant,1,<{concave points_se_high}>,0.585
+Malignant,1,<{texture_worst_high}>,0.571
+Malignant,1,<{texture_mean_high}>,0.571
+Malignant,1,<{concavity_se_high}>,0.561
+Malignant,1,<{smoothness_worst_high}>,0.557
+Malignant,1,<{symmetry_worst_high}>,0.542
+Malignant,1,<{compactness_se_high}>,0.514
+Malignant,1,<{smoothness_mean_high}>,0.509
+Malignant,1,<{fractal_dimension_worst_high}>,0.505
+Malignant,1,<{symmetry_mean_high}>,0.495
+Malignant,1,<{fractal_dimension_se_high}>,0.439
+Malignant,1,<{symmetry_se_low}>,0.396
+Malignant,1,<{texture_se_med}>,0.392
+Malignant,1,<{smoothness_se_med}>,0.368
+Malignant,1,<{concavity_se_med}>,0.368
+Malignant,1,<{smoothness_mean_med}>,0.368
+Malignant,1,<{fractal_dimension_se_med}>,0.354
+Malignant,1,<{fractal_dimension_mean_low}>,0.349
+Malignant,1,<{compactness_se_med}>,0.349
+Malignant,1,<{fractal_dimension_mean_high}>,0.344
+Malignant,1,<{texture_worst_med}>,0.344
+Malignant,1,<{concave points_se_med}>,0.344
+Malignant,1,<{smoothness_se_low}>,0.33
+Malignant,1,<{texture_mean_med}>,0.33
+Malignant,1,<{symmetry_mean_med}>,0.33
+Malignant,1,<{fractal_dimension_mean_med}>,0.307
+Malignant,1,<{texture_se_high}>,0.307
+Malignant,1,<{smoothness_worst_med}>,0.307
+Malignant,1,<{fractal_dimension_worst_med}>,0.307
+Malignant,1,<{symmetry_se_med}>,0.307
+Malignant,1,<{texture_se_low}>,0.302
+Malignant,1,<{smoothness_se_high}>,0.302
+Malignant,1,<{symmetry_se_high}>,0.297
+Malignant,1,<{symmetry_worst_med}>,0.292
+Malignant,1,<{compactness_worst_med}>,0.25
+Malignant,2,"<{area_worst_high, radius_worst_high}>",0.835
+Malignant,2,"<{perimeter_worst_high, radius_worst_high}>",0.821
+Malignant,2,"<{area_worst_high, perimeter_worst_high}>",0.811
+Malignant,2,"<{perimeter_mean_high, radius_mean_high}>",0.783
+Malignant,2,"<{area_mean_high, radius_mean_high}>",0.783
+Malignant,2,"<{concave points_mean_high, concave points_worst_high}>",0.783
+Malignant,2,"<{area_worst_high, perimeter_mean_high}>",0.783
+Malignant,2,"<{perimeter_mean_high, radius_worst_high}>",0.783
+Malignant,2,"<{perimeter_mean_high, perimeter_worst_high}>",0.783
+Malignant,2,"<{area_mean_high, perimeter_mean_high}>",0.778
+Malignant,2,"<{area_worst_high, radius_mean_high}>",0.769
+Malignant,2,"<{radius_mean_high, radius_worst_high}>",0.769
+Malignant,2,"<{perimeter_worst_high, radius_mean_high}>",0.769
+Malignant,2,"<{area_mean_high, area_worst_high}>",0.769
+Malignant,2,"<{area_mean_high, radius_worst_high}>",0.769
+Malignant,2,"<{area_mean_high, perimeter_worst_high}>",0.769
+Malignant,2,"<{concave points_worst_high, concavity_mean_high}>",0.75
+Malignant,2,"<{concave points_mean_high, concavity_mean_high}>",0.745
+Malignant,2,"<{area_se_high, area_worst_high}>",0.736
+Malignant,2,"<{area_se_high, radius_worst_high}>",0.736
+Malignant,2,"<{concave points_worst_high, perimeter_worst_high}>",0.736
+Malignant,2,"<{concave points_mean_high, perimeter_worst_high}>",0.731
+Malignant,2,"<{concave points_mean_high, radius_worst_high}>",0.726
+Malignant,2,"<{concave points_worst_high, radius_worst_high}>",0.726
+Malignant,2,"<{area_worst_high, concave points_mean_high}>",0.722
+Malignant,2,"<{area_worst_high, concave points_worst_high}>",0.722
+Malignant,2,"<{area_se_high, perimeter_worst_high}>",0.712
+Malignant,2,"<{concave points_mean_high, perimeter_mean_high}>",0.703
+Malignant,2,"<{concave points_worst_high, concavity_worst_high}>",0.703
+Malignant,2,"<{area_se_high, radius_mean_high}>",0.698
+Malignant,2,"<{area_se_high, perimeter_mean_high}>",0.698
+Malignant,2,"<{area_mean_high, area_se_high}>",0.698
+Malignant,2,"<{concavity_mean_high, concavity_worst_high}>",0.693
+Malignant,2,"<{concavity_mean_high, perimeter_worst_high}>",0.693
+Malignant,2,"<{concave points_worst_high, perimeter_mean_high}>",0.693
+Malignant,2,"<{area_se_high, radius_se_high}>",0.693
+Malignant,2,"<{concave points_mean_high, radius_mean_high}>",0.689
+Malignant,2,"<{area_mean_high, concave points_mean_high}>",0.684
+Malignant,2,"<{concave points_worst_high, radius_mean_high}>",0.679
+Malignant,2,"<{concavity_mean_high, radius_worst_high}>",0.679
+Malignant,2,"<{area_mean_high, concave points_worst_high}>",0.679
+Malignant,2,"<{area_worst_high, concavity_mean_high}>",0.675
+Malignant,2,"<{concave points_mean_high, concavity_worst_high}>",0.675
+Malignant,2,"<{area_se_high, perimeter_se_high}>",0.67
+Malignant,2,"<{perimeter_se_high, radius_se_high}>",0.67
+Malignant,2,"<{radius_se_high, radius_worst_high}>",0.67
+Malignant,2,"<{area_se_high, concave points_mean_high}>",0.665
+Malignant,2,"<{area_worst_high, radius_se_high}>",0.665
+Malignant,2,"<{concavity_mean_high, perimeter_mean_high}>",0.66
+Malignant,2,"<{perimeter_se_high, radius_worst_high}>",0.66
+Malignant,2,"<{compactness_mean_high, concave points_worst_high}>",0.66
+Malignant,2,"<{area_se_high, concave points_worst_high}>",0.66
+Malignant,2,"<{area_worst_high, perimeter_se_high}>",0.656
+Malignant,2,"<{perimeter_se_high, perimeter_worst_high}>",0.656
+Malignant,2,"<{perimeter_worst_high, radius_se_high}>",0.651
+Malignant,2,"<{concavity_mean_high, radius_mean_high}>",0.646
+Malignant,2,"<{compactness_mean_high, concavity_mean_high}>",0.646
+Malignant,2,"<{compactness_mean_high, concave points_mean_high}>",0.646
+Malignant,2,"<{compactness_worst_high, concave points_worst_high}>",0.646
+Malignant,2,"<{area_mean_high, concavity_mean_high}>",0.642
+Malignant,2,"<{concavity_worst_high, perimeter_worst_high}>",0.642
+Malignant,2,"<{area_mean_high, perimeter_se_high}>",0.642
+Malignant,2,"<{perimeter_se_high, radius_mean_high}>",0.637
+Malignant,2,"<{concave points_mean_high, perimeter_se_high}>",0.637
+Malignant,2,"<{perimeter_mean_high, perimeter_se_high}>",0.637
+Malignant,2,"<{area_se_high, concavity_mean_high}>",0.632
+Malignant,2,"<{area_mean_high, radius_se_high}>",0.632
+Malignant,2,"<{radius_mean_high, radius_se_high}>",0.627
+Malignant,2,"<{concavity_worst_high, radius_worst_high}>",0.627
+Malignant,2,"<{compactness_worst_high, concavity_worst_high}>",0.627
+Malignant,2,"<{concave points_worst_high, perimeter_se_high}>",0.627
+Malignant,2,"<{perimeter_mean_high, radius_se_high}>",0.627
+Malignant,2,"<{concave points_mean_high, radius_se_high}>",0.623
+Malignant,2,"<{area_worst_high, concavity_worst_high}>",0.618
+Malignant,2,"<{compactness_worst_high, concavity_mean_high}>",0.613
+Malignant,2,"<{compactness_mean_high, concavity_worst_high}>",0.613
+Malignant,2,"<{concave points_worst_high, radius_se_high}>",0.613
+Malignant,2,"<{compactness_worst_high, concave points_mean_high}>",0.608
+Malignant,2,"<{compactness_mean_high, compactness_worst_high}>",0.608
+Malignant,2,"<{concavity_mean_high, perimeter_se_high}>",0.604
+Malignant,2,"<{concavity_worst_high, perimeter_mean_high}>",0.594
+Malignant,2,"<{concavity_mean_high, radius_se_high}>",0.59
+Malignant,2,"<{compactness_mean_high, perimeter_worst_high}>",0.585
+Malignant,2,"<{concavity_worst_high, radius_mean_high}>",0.58
+Malignant,2,"<{area_mean_high, concavity_worst_high}>",0.58
+Malignant,2,"<{compactness_mean_high, radius_worst_high}>",0.58
+Malignant,2,"<{compactness_worst_high, perimeter_worst_high}>",0.58
+Malignant,2,"<{area_worst_high, compactness_mean_high}>",0.575
+Malignant,2,"<{compactness_worst_high, radius_worst_high}>",0.571
+Malignant,2,"<{area_worst_high, compactness_worst_high}>",0.561
+Malignant,2,"<{area_se_high, concavity_worst_high}>",0.557
+Malignant,2,"<{compactness_mean_high, perimeter_mean_high}>",0.552
+Malignant,2,"<{compactness_mean_high, radius_mean_high}>",0.538
+Malignant,2,"<{area_se_high, compactness_mean_high}>",0.538
+Malignant,2,"<{concave points_mean_high, concave points_se_high}>",0.533
+Malignant,2,"<{concave points_se_high, concave points_worst_high}>",0.533
+Malignant,2,"<{concavity_worst_high, perimeter_se_high}>",0.533
+Malignant,2,"<{compactness_worst_high, perimeter_mean_high}>",0.533
+Malignant,2,"<{area_mean_high, compactness_mean_high}>",0.533
+Malignant,2,"<{concavity_mean_high, concavity_se_high}>",0.528
+Malignant,2,"<{concave points_worst_high, smoothness_worst_high}>",0.528
+Malignant,2,"<{concave points_worst_high, concavity_se_high}>",0.524
+Malignant,2,"<{compactness_worst_high, radius_mean_high}>",0.519
+Malignant,2,"<{concavity_worst_high, radius_se_high}>",0.519
+Malignant,2,"<{concave points_mean_high, concavity_se_high}>",0.514
+Malignant,2,"<{compactness_mean_high, perimeter_se_high}>",0.514
+Malignant,2,"<{area_mean_high, compactness_worst_high}>",0.514
+Malignant,2,"<{concavity_worst_high, smoothness_worst_high}>",0.505
+Malignant,2,"<{compactness_mean_high, radius_se_high}>",0.505
+Malignant,2,"<{area_se_high, compactness_worst_high}>",0.505
+Malignant,2,"<{concave points_se_high, perimeter_se_high}>",0.5
+Malignant,2,"<{concavity_se_high, concavity_worst_high}>",0.5
+Malignant,2,"<{concave points_se_high, concavity_mean_high}>",0.495
+Malignant,2,"<{concave points_worst_high, symmetry_worst_high}>",0.495
+Malignant,2,"<{concavity_mean_high, smoothness_worst_high}>",0.491
+Malignant,2,"<{concavity_mean_high, smoothness_mean_high}>",0.491
+Malignant,2,"<{concave points_mean_high, smoothness_worst_high}>",0.491
+Malignant,2,"<{concave points_se_high, perimeter_mean_high}>",0.491
+Malignant,2,"<{concave points_se_high, perimeter_worst_high}>",0.491
+Malignant,2,"<{concave points_worst_high, fractal_dimension_worst_high}>",0.491
+Malignant,2,"<{concave points_worst_high, smoothness_mean_high}>",0.491
+Malignant,2,"<{concave points_se_high, radius_mean_high}>",0.486
+Malignant,2,"<{concave points_se_high, radius_worst_high}>",0.486
+Malignant,2,"<{area_mean_high, concave points_se_high}>",0.486
+Malignant,2,"<{concave points_mean_high, smoothness_mean_high}>",0.486
+Malignant,2,"<{compactness_worst_high, fractal_dimension_worst_high}>",0.486
+Malignant,2,"<{radius_worst_high, texture_worst_high}>",0.481
+Malignant,2,"<{concave points_worst_high, texture_worst_high}>",0.481
+Malignant,2,"<{area_worst_high, concave points_se_high}>",0.481
+Malignant,2,"<{area_se_high, concave points_se_high}>",0.481
+Malignant,2,"<{compactness_se_high, concave points_worst_high}>",0.481
+Malignant,2,"<{compactness_worst_high, symmetry_worst_high}>",0.481
+Malignant,2,"<{compactness_mean_high, concavity_se_high}>",0.481
+Malignant,2,"<{compactness_mean_high, smoothness_mean_high}>",0.481
+Malignant,2,"<{concavity_worst_high, symmetry_worst_high}>",0.476
+Malignant,2,"<{compactness_worst_high, perimeter_se_high}>",0.476
+Malignant,2,"<{concave points_worst_high, texture_mean_high}>",0.476
+Malignant,2,"<{concavity_se_high, perimeter_worst_high}>",0.476
+Malignant,2,"<{area_worst_high, texture_worst_high}>",0.472
+Malignant,2,"<{perimeter_worst_high, texture_worst_high}>",0.472
+Malignant,2,"<{compactness_se_high, concavity_mean_high}>",0.472
+Malignant,2,"<{concavity_mean_high, texture_mean_high}>",0.472
+Malignant,2,"<{compactness_worst_high, smoothness_worst_high}>",0.472
+Malignant,2,"<{concave points_se_high, radius_se_high}>",0.472
+Malignant,2,"<{compactness_se_high, concave points_mean_high}>",0.472
+Malignant,2,"<{compactness_mean_high, compactness_se_high}>",0.472
+Malignant,2,"<{concavity_worst_high, fractal_dimension_worst_high}>",0.472
+Malignant,2,"<{concavity_worst_high, smoothness_mean_high}>",0.472
+Malignant,2,"<{concavity_se_high, perimeter_mean_high}>",0.472
+Malignant,2,"<{radius_worst_high, texture_mean_high}>",0.472
+Malignant,2,"<{texture_mean_high, texture_worst_high}>",0.467
+Malignant,2,"<{concave points_mean_high, symmetry_worst_high}>",0.467
+Malignant,2,"<{concavity_se_high, radius_worst_high}>",0.467
+Malignant,2,"<{compactness_worst_high, radius_se_high}>",0.467
+Malignant,2,"<{concavity_mean_high, texture_worst_high}>",0.462
+Malignant,2,"<{concavity_se_high, radius_mean_high}>",0.462
+Malignant,2,"<{concavity_mean_high, symmetry_worst_high}>",0.462
+Malignant,2,"<{concave points_mean_high, texture_mean_high}>",0.462
+Malignant,2,"<{area_worst_high, texture_mean_high}>",0.462
+Malignant,2,"<{area_worst_high, concavity_se_high}>",0.462
+Malignant,2,"<{perimeter_worst_high, texture_mean_high}>",0.462
+Malignant,2,"<{area_mean_high, concavity_se_high}>",0.462
+Malignant,2,"<{concavity_worst_high, texture_worst_high}>",0.458
+Malignant,2,"<{concavity_mean_high, symmetry_mean_high}>",0.458
+Malignant,2,"<{compactness_se_high, concavity_worst_high}>",0.458
+Malignant,2,"<{compactness_se_high, concavity_se_high}>",0.458
+Malignant,2,"<{concave points_mean_high, fractal_dimension_worst_high}>",0.458
+Malignant,2,"<{concavity_se_high, perimeter_se_high}>",0.458
+Malignant,2,"<{compactness_mean_high, fractal_dimension_worst_high}>",0.458
+Malignant,2,"<{compactness_mean_high, symmetry_mean_high}>",0.458
+Malignant,2,"<{concave points_worst_high, symmetry_mean_high}>",0.458
+Malignant,2,"<{concave points_mean_high, texture_worst_high}>",0.453
+Malignant,2,"<{concavity_mean_high, fractal_dimension_worst_high}>",0.453
+Malignant,2,"<{perimeter_worst_high, smoothness_worst_high}>",0.453
+Malignant,2,"<{compactness_se_high, compactness_worst_high}>",0.453
+Malignant,2,"<{compactness_mean_high, symmetry_worst_high}>",0.453
+Malignant,2,"<{radius_worst_high, symmetry_worst_high}>",0.453
+Malignant,2,"<{concave points_mean_high, symmetry_mean_high}>",0.453
+Malignant,2,"<{perimeter_mean_high, texture_mean_high}>",0.453
+Malignant,2,"<{area_se_high, texture_mean_high}>",0.453
+Malignant,2,"<{area_se_high, concavity_se_high}>",0.453
+Malignant,2,"<{radius_worst_high, smoothness_worst_high}>",0.448
+Malignant,2,"<{compactness_mean_high, concave points_se_high}>",0.448
+Malignant,2,"<{perimeter_worst_high, symmetry_worst_high}>",0.448
+Malignant,2,"<{concavity_worst_high, texture_mean_high}>",0.448
+Malignant,2,"<{compactness_worst_high, concavity_se_high}>",0.448
+Malignant,2,"<{radius_mean_high, texture_mean_high}>",0.443
+Malignant,2,"<{compactness_mean_high, smoothness_worst_high}>",0.443
+Malignant,2,"<{area_worst_high, symmetry_worst_high}>",0.443
+Malignant,2,"<{compactness_worst_high, smoothness_mean_high}>",0.443
+Malignant,2,"<{area_worst_high, smoothness_worst_high}>",0.439
+Malignant,2,"<{concave points_se_high, concavity_worst_high}>",0.439
+Malignant,2,"<{concave points_se_high, concavity_se_high}>",0.439
+Malignant,2,"<{area_mean_high, texture_mean_high}>",0.439
+Malignant,2,"<{concavity_se_high, radius_se_high}>",0.439
+Malignant,2,"<{compactness_worst_high, texture_worst_high}>",0.434
+Malignant,2,"<{area_se_high, texture_worst_high}>",0.429
+Malignant,2,"<{compactness_worst_high, concave points_se_high}>",0.429
+Malignant,2,"<{compactness_se_high, perimeter_worst_high}>",0.429
+Malignant,2,"<{compactness_worst_high, symmetry_mean_high}>",0.429
+Malignant,2,"<{compactness_se_high, radius_worst_high}>",0.425
+Malignant,2,"<{concavity_worst_high, symmetry_mean_high}>",0.425
+Malignant,2,"<{radius_se_high, texture_mean_high}>",0.425
+Malignant,2,"<{perimeter_mean_high, texture_worst_high}>",0.42
+Malignant,2,"<{area_worst_high, compactness_se_high}>",0.42
+Malignant,2,"<{perimeter_se_high, texture_mean_high}>",0.42
+Malignant,2,"<{concave points_worst_high, fractal_dimension_se_high}>",0.42
+Malignant,2,"<{smoothness_mean_high, smoothness_worst_high}>",0.415
+Malignant,2,"<{symmetry_mean_high, symmetry_worst_high}>",0.415
+Malignant,2,"<{concave points_mean_high, fractal_dimension_se_high}>",0.415
+Malignant,2,"<{area_worst_high, smoothness_mean_high}>",0.415
+Malignant,2,"<{radius_worst_high, smoothness_mean_high}>",0.415
+Malignant,2,"<{perimeter_worst_high, smoothness_mean_high}>",0.415
+Malignant,2,"<{concavity_mean_high, fractal_dimension_se_high}>",0.41
+Malignant,2,"<{compactness_se_high, perimeter_se_high}>",0.41
+Malignant,2,"<{compactness_se_high, perimeter_mean_high}>",0.41
+Malignant,2,"<{compactness_worst_high, texture_mean_high}>",0.41
+Malignant,2,"<{radius_mean_high, texture_worst_high}>",0.406
+Malignant,2,"<{area_mean_high, texture_worst_high}>",0.406
+Malignant,2,"<{perimeter_mean_high, smoothness_worst_high}>",0.406
+Malignant,2,"<{area_se_high, compactness_se_high}>",0.406
+Malignant,2,"<{perimeter_mean_high, symmetry_worst_high}>",0.406
+Malignant,2,"<{radius_worst_high, symmetry_mean_high}>",0.406
+Malignant,2,"<{perimeter_worst_high, symmetry_mean_high}>",0.406
+Malignant,2,"<{radius_se_high, texture_worst_high}>",0.401
+Malignant,2,"<{compactness_se_high, concave points_se_high}>",0.401
+Malignant,2,"<{area_worst_high, symmetry_mean_high}>",0.401
+Malignant,2,"<{compactness_mean_high, fractal_dimension_se_high}>",0.401
+Malignant,2,"<{fractal_dimension_worst_high, perimeter_worst_high}>",0.401
+Malignant,2,"<{compactness_se_high, radius_mean_high}>",0.396
+Malignant,2,"<{radius_mean_high, symmetry_worst_high}>",0.396
+Malignant,2,"<{smoothness_worst_high, symmetry_worst_high}>",0.396
+Malignant,2,"<{area_se_high, smoothness_worst_high}>",0.396
+Malignant,2,"<{area_mean_high, compactness_se_high}>",0.396
+Malignant,2,"<{area_se_high, symmetry_worst_high}>",0.396
+Malignant,2,"<{fractal_dimension_worst_high, radius_worst_high}>",0.396
+Malignant,2,"<{radius_mean_high, smoothness_worst_high}>",0.392
+Malignant,2,"<{fractal_dimension_worst_high, smoothness_worst_high}>",0.392
+Malignant,2,"<{area_mean_high, smoothness_worst_high}>",0.392
+Malignant,2,"<{compactness_se_high, radius_se_high}>",0.392
+Malignant,2,"<{area_mean_high, symmetry_worst_high}>",0.392
+Malignant,2,"<{area_worst_high, fractal_dimension_worst_high}>",0.392
+Malignant,2,"<{compactness_mean_high, texture_worst_high}>",0.387
+Malignant,2,"<{concavity_worst_high, fractal_dimension_se_high}>",0.387
+Malignant,2,"<{perimeter_mean_high, smoothness_mean_high}>",0.387
+Malignant,2,"<{compactness_mean_high, texture_mean_high}>",0.387
+Malignant,2,"<{area_se_high, smoothness_mean_high}>",0.387
+Malignant,2,"<{perimeter_se_high, texture_worst_high}>",0.382
+Malignant,2,"<{compactness_se_high, fractal_dimension_se_high}>",0.382
+Malignant,2,"<{area_se_high, symmetry_mean_high}>",0.382
+Malignant,2,"<{fractal_dimension_worst_high, symmetry_worst_high}>",0.377
+Malignant,2,"<{perimeter_se_high, smoothness_mean_high}>",0.377
+Malignant,2,"<{compactness_worst_high, fractal_dimension_se_high}>",0.377
+Malignant,2,"<{concavity_se_high, fractal_dimension_se_high}>",0.377
+Malignant,2,"<{radius_mean_high, smoothness_mean_high}>",0.373
+Malignant,2,"<{perimeter_se_high, smoothness_worst_high}>",0.373
+Malignant,2,"<{radius_se_high, symmetry_worst_high}>",0.373
+Malignant,2,"<{perimeter_mean_high, symmetry_mean_high}>",0.373
+Malignant,2,"<{fractal_dimension_worst_high, smoothness_mean_high}>",0.373
+Malignant,2,"<{concavity_se_high, texture_mean_high}>",0.373
+Malignant,2,"<{smoothness_mean_high, symmetry_mean_high}>",0.373
+Malignant,2,"<{radius_se_high, smoothness_worst_high}>",0.368
+Malignant,2,"<{fractal_dimension_se_high, perimeter_worst_high}>",0.368
+Malignant,2,"<{area_mean_high, smoothness_mean_high}>",0.368
+Malignant,2,"<{radius_se_high, smoothness_mean_high}>",0.368
+Malignant,2,"<{radius_se_high, symmetry_mean_high}>",0.363
+Malignant,2,"<{radius_mean_high, symmetry_mean_high}>",0.358
+Malignant,2,"<{perimeter_se_high, symmetry_worst_high}>",0.358
+Malignant,2,"<{perimeter_se_high, symmetry_mean_high}>",0.358
+Malignant,2,"<{fractal_dimension_worst_high, perimeter_mean_high}>",0.358
+Malignant,2,"<{concavity_se_high, smoothness_mean_high}>",0.358
+Malignant,2,"<{smoothness_worst_high, texture_worst_high}>",0.354
+Malignant,2,"<{concave points_se_high, fractal_dimension_se_high}>",0.354
+Malignant,2,"<{compactness_se_high, fractal_dimension_worst_high}>",0.354
+Malignant,2,"<{smoothness_mean_high, symmetry_worst_high}>",0.354
+Malignant,2,"<{fractal_dimension_se_high, radius_worst_high}>",0.354
+Malignant,2,"<{area_mean_high, symmetry_mean_high}>",0.354
+Malignant,2,"<{area_worst_high, fractal_dimension_se_high}>",0.349
+Malignant,2,"<{fractal_dimension_se_high, perimeter_se_high}>",0.349
+Malignant,2,"<{radius_worst_high}, {texture_se_med}>",0.349
+Malignant,2,"<{perimeter_worst_high}, {texture_se_med}>",0.349
+Malignant,2,"<{fractal_dimension_worst_high, radius_mean_high}>",0.344
+Malignant,2,"<{compactness_se_high, texture_mean_high}>",0.344
+Malignant,2,"<{compactness_se_high, symmetry_mean_high}>",0.344
+Malignant,2,"<{area_worst_high}, {texture_se_med}>",0.344
+Malignant,2,"<{concavity_se_high, fractal_dimension_worst_high}>",0.344
+Malignant,2,"<{radius_worst_high}, {symmetry_se_low}>",0.344
+Malignant,2,"<{concavity_se_high, symmetry_mean_high}>",0.344
+Malignant,2,"<{symmetry_worst_high, texture_worst_high}>",0.34
+Malignant,2,"<{smoothness_worst_high, symmetry_mean_high}>",0.34
+Malignant,2,"<{concave points_se_high, texture_mean_high}>",0.34
+Malignant,2,"<{area_worst_high}, {symmetry_se_low}>",0.34
+Malignant,2,"<{fractal_dimension_se_high, perimeter_mean_high}>",0.34
+Malignant,2,"<{area_se_high, fractal_dimension_se_high}>",0.34
+Malignant,2,"<{area_mean_high, fractal_dimension_worst_high}>",0.34
+Malignant,2,"<{perimeter_worst_high}, {symmetry_se_low}>",0.34
+Malignant,2,"<{concavity_se_high, smoothness_worst_high}>",0.335
+Malignant,2,"<{compactness_mean_high, fractal_dimension_mean_high}>",0.335
+Malignant,2,"<{concave points_worst_high, fractal_dimension_mean_high}>",0.335
+Malignant,2,"<{compactness_se_high, smoothness_mean_high}>",0.335
+Malignant,2,"<{area_se_high, fractal_dimension_worst_high}>",0.335
+Malignant,2,"<{fractal_dimension_worst_high, symmetry_mean_high}>",0.335
+Malignant,2,"<{fractal_dimension_worst_high, texture_worst_high}>",0.33
+Malignant,2,"<{fractal_dimension_se_high, radius_mean_high}>",0.33
+Malignant,2,"<{fractal_dimension_mean_high, fractal_dimension_worst_high}>",0.33
+Malignant,2,"<{compactness_worst_high, fractal_dimension_mean_high}>",0.33
+Malignant,2,"<{area_worst_high}, {fractal_dimension_mean_low}>",0.33
+Malignant,2,"<{area_worst_high}, {concavity_se_med}>",0.33
+Malignant,2,"<{fractal_dimension_worst_high, perimeter_se_high}>",0.33
+Malignant,2,"<{fractal_dimension_se_high, fractal_dimension_worst_high}>",0.33
+Malignant,2,"<{area_mean_high, fractal_dimension_se_high}>",0.33
+Malignant,2,"<{fractal_dimension_se_high, radius_se_high}>",0.33
+Malignant,2,"<{radius_worst_high}, {fractal_dimension_mean_low}>",0.33
+Malignant,2,"<{radius_worst_high}, {concavity_se_med}>",0.33
+Malignant,2,"<{radius_mean_high}, {fractal_dimension_mean_low}>",0.325
+Malignant,2,"<{concavity_mean_high, fractal_dimension_mean_high}>",0.325
+Malignant,2,"<{concave points_se_high, smoothness_mean_high}>",0.325
+Malignant,2,"<{concave points_se_high, symmetry_mean_high}>",0.325
+Malignant,2,"<{concavity_worst_high, fractal_dimension_mean_high}>",0.325
+Malignant,2,"<{compactness_se_high, symmetry_worst_high}>",0.325
+Malignant,2,"<{area_mean_high}, {fractal_dimension_mean_low}>",0.325
+Malignant,2,"<{concave points_mean_high, fractal_dimension_mean_high}>",0.321
+Malignant,2,"<{concavity_se_high, symmetry_worst_high}>",0.321
+Malignant,2,"<{perimeter_mean_high}, {fractal_dimension_mean_low}>",0.321
+Malignant,2,"<{concave points_worst_high}, {texture_se_med}>",0.321
+Malignant,2,"<{area_mean_high}, {symmetry_se_low}>",0.321
+Malignant,2,"<{perimeter_worst_high}, {smoothness_mean_med}>",0.321
+Malignant,2,"<{concavity_se_high, texture_worst_high}>",0.316
+Malignant,2,"<{radius_mean_high}, {symmetry_se_low}>",0.316
+Malignant,2,"<{fractal_dimension_mean_high, smoothness_mean_high}>",0.316
+Malignant,2,"<{perimeter_mean_high}, {texture_se_med}>",0.316
+Malignant,2,"<{perimeter_mean_high}, {symmetry_se_low}>",0.316
+Malignant,2,"<{fractal_dimension_worst_high, radius_se_high}>",0.316
+Malignant,2,"<{area_se_high}, {fractal_dimension_mean_low}>",0.316
+Malignant,2,"<{radius_worst_high}, {smoothness_mean_med}>",0.316
+Malignant,2,"<{perimeter_worst_high}, {fractal_dimension_mean_low}>",0.316
+Malignant,2,"<{perimeter_worst_high}, {concavity_se_med}>",0.316
+Malignant,2,"<{radius_mean_high}, {texture_worst_med}>",0.311
+Malignant,2,"<{fractal_dimension_se_high, smoothness_mean_high}>",0.311
+Malignant,2,"<{concave points_worst_high}, {smoothness_se_med}>",0.311
+Malignant,2,"<{concave points_worst_high}, {symmetry_se_low}>",0.311
+Malignant,2,"<{area_mean_high}, {texture_worst_med}>",0.311
+Malignant,2,"<{concave points_se_high, smoothness_worst_high}>",0.307
+Malignant,2,"<{compactness_se_high, smoothness_worst_high}>",0.307
+Malignant,2,"<{concave points_mean_high}, {smoothness_se_med}>",0.307
+Malignant,2,"<{concave points_mean_high}, {texture_se_med}>",0.307
+Malignant,2,"<{area_worst_high}, {compactness_se_med}>",0.307
+Malignant,2,"<{area_worst_high}, {smoothness_mean_med}>",0.307
+Malignant,2,"<{fractal_dimension_se_high, symmetry_mean_high}>",0.307
+Malignant,2,"<{perimeter_mean_high}, {texture_worst_med}>",0.307
+Malignant,2,"<{area_se_high}, {texture_se_med}>",0.307
+Malignant,2,"<{radius_worst_high}, {compactness_se_med}>",0.307
+Malignant,2,"<{area_mean_high}, {smoothness_mean_med}>",0.307
+Malignant,2,"<{perimeter_worst_high}, {smoothness_se_low}>",0.307
+Malignant,2,"<{perimeter_worst_high}, {compactness_se_med}>",0.307
+Malignant,2,"<{perimeter_worst_high}, {texture_mean_med}>",0.307
+Malignant,2,"<{compactness_se_high, texture_worst_high}>",0.302
+Malignant,2,"<{radius_mean_high}, {texture_se_med}>",0.302
+Malignant,2,"<{radius_mean_high}, {smoothness_mean_med}>",0.302
+Malignant,2,"<{concavity_mean_high}, {texture_se_med}>",0.302
+Malignant,2,"<{smoothness_worst_high, texture_mean_high}>",0.302
+Malignant,2,"<{concave points_se_high, fractal_dimension_worst_high}>",0.302
+Malignant,2,"<{area_worst_high}, {fractal_dimension_se_med}>",0.302
+Malignant,2,"<{area_worst_high}, {smoothness_se_med}>",0.302
+Malignant,2,"<{area_worst_high}, {texture_mean_med}>",0.302
+Malignant,2,"<{area_worst_high}, {concave points_se_med}>",0.302
+Malignant,2,"<{area_se_high}, {smoothness_se_med}>",0.302
+Malignant,2,"<{radius_worst_high}, {fractal_dimension_se_med}>",0.302
+Malignant,2,"<{radius_worst_high}, {smoothness_se_med}>",0.302
+Malignant,2,"<{radius_worst_high}, {smoothness_se_low}>",0.302
+Malignant,2,"<{radius_worst_high}, {texture_mean_med}>",0.302
+Malignant,2,"<{radius_worst_high}, {concave points_se_med}>",0.302
+Malignant,2,"<{concave points_worst_high}, {compactness_se_med}>",0.302
+Malignant,2,"<{concave points_worst_high}, {smoothness_mean_med}>",0.302
+Malignant,2,"<{area_mean_high}, {texture_se_med}>",0.302
+Malignant,2,"<{perimeter_worst_high}, {smoothness_se_med}>",0.302
+Malignant,2,"<{concave points_se_high, texture_worst_high}>",0.297
+Malignant,2,"<{symmetry_worst_high, texture_mean_high}>",0.297
+Malignant,2,"<{concave points_mean_high}, {concavity_se_med}>",0.297
+Malignant,2,"<{concave points_mean_high}, {compactness_se_med}>",0.297
+Malignant,2,"<{area_worst_high}, {smoothness_se_low}>",0.297
+Malignant,2,"<{perimeter_mean_high}, {smoothness_mean_med}>",0.297
+Malignant,2,"<{fractal_dimension_worst_high, texture_mean_high}>",0.297
+Malignant,2,"<{concave points_worst_high}, {concavity_se_med}>",0.297
+Malignant,2,"<{perimeter_worst_high}, {texture_worst_med}>",0.297
+Malignant,2,"<{smoothness_mean_high, texture_worst_high}>",0.292
+Malignant,2,"<{radius_mean_high}, {compactness_se_med}>",0.292
+Malignant,2,"<{radius_mean_high}, {symmetry_mean_med}>",0.292
+Malignant,2,"<{concavity_mean_high}, {smoothness_se_med}>",0.292
+Malignant,2,"<{concave points_mean_high}, {texture_worst_med}>",0.292
+Malignant,2,"<{concavity_worst_high}, {texture_se_med}>",0.292
+Malignant,2,"<{area_worst_high}, {texture_worst_med}>",0.292
+Malignant,2,"<{perimeter_mean_high}, {compactness_se_med}>",0.292
+Malignant,2,"<{perimeter_mean_high}, {symmetry_mean_med}>",0.292
+Malignant,2,"<{area_se_high}, {concavity_se_med}>",0.292
+Malignant,2,"<{area_se_high}, {symmetry_se_low}>",0.292
+Malignant,2,"<{area_se_high}, {smoothness_mean_med}>",0.292
+Malignant,2,"<{radius_worst_high}, {texture_worst_med}>",0.292
+Malignant,2,"<{area_mean_high}, {symmetry_mean_med}>",0.292
+Malignant,2,"<{perimeter_worst_high}, {fractal_dimension_se_med}>",0.292
+Malignant,2,"<{perimeter_worst_high}, {fractal_dimension_worst_med}>",0.292
+Malignant,2,"<{perimeter_worst_high}, {concave points_se_med}>",0.292
+Malignant,2,"<{symmetry_mean_high, texture_worst_high}>",0.288
+Malignant,2,"<{radius_mean_high}, {smoothness_se_med}>",0.288
+Malignant,2,"<{concave points_mean_high}, {smoothness_mean_med}>",0.288
+Malignant,2,"<{perimeter_mean_high}, {fractal_dimension_se_med}>",0.288
+Malignant,2,"<{perimeter_mean_high}, {smoothness_se_med}>",0.288
+Malignant,2,"<{radius_worst_high}, {fractal_dimension_worst_med}>",0.288
+Malignant,2,"<{radius_worst_high}, {symmetry_mean_med}>",0.288
+Malignant,2,"<{compactness_worst_high}, {texture_se_med}>",0.288
+Malignant,2,"<{concave points_worst_high}, {texture_worst_med}>",0.288
+Malignant,2,"<{area_mean_high}, {smoothness_se_med}>",0.288
+Malignant,2,"<{area_mean_high}, {fractal_dimension_worst_med}>",0.288
+Malignant,2,"<{area_mean_high}, {compactness_se_med}>",0.288
+Malignant,2,"<{perimeter_worst_high}, {symmetry_mean_med}>",0.288
+Malignant,2,"<{radius_mean_high}, {fractal_dimension_se_med}>",0.283
+Malignant,2,"<{radius_mean_high}, {fractal_dimension_worst_med}>",0.283
+Malignant,2,"<{concavity_mean_high}, {compactness_se_med}>",0.283
+Malignant,2,"<{concave points_se_high, symmetry_worst_high}>",0.283
+Malignant,2,"<{concave points_mean_high}, {symmetry_se_low}>",0.283
+Malignant,2,"<{area_worst_high}, {fractal_dimension_worst_med}>",0.283
+Malignant,2,"<{area_worst_high}, {symmetry_mean_med}>",0.283
+Malignant,2,"<{perimeter_se_high}, {smoothness_se_med}>",0.283
+Malignant,2,"<{perimeter_mean_high}, {concavity_se_med}>",0.283
+Malignant,2,"<{perimeter_mean_high}, {fractal_dimension_worst_med}>",0.283
+Malignant,2,"<{concave points_worst_high}, {concave points_se_med}>",0.283
+Malignant,2,"<{concave points_worst_high}, {symmetry_mean_med}>",0.283
+Malignant,2,"<{radius_mean_high}, {concavity_se_med}>",0.278
+Malignant,2,"<{concavity_mean_high}, {concave points_se_med}>",0.278
+Malignant,2,"<{fractal_dimension_mean_high, smoothness_worst_high}>",0.278
+Malignant,2,"<{concave points_mean_high}, {symmetry_mean_med}>",0.278
+Malignant,2,"<{concavity_worst_high}, {smoothness_se_med}>",0.278
+Malignant,2,"<{perimeter_se_high}, {texture_worst_med}>",0.278
+Malignant,2,"<{perimeter_mean_high}, {smoothness_se_low}>",0.278
+Malignant,2,"<{area_se_high}, {fractal_dimension_se_med}>",0.278
+Malignant,2,"<{smoothness_mean_high, texture_mean_high}>",0.278
+Malignant,2,"<{symmetry_mean_high, texture_mean_high}>",0.278
+Malignant,2,"<{concave points_worst_high}, {fractal_dimension_se_med}>",0.278
+Malignant,2,"<{concave points_worst_high}, {texture_mean_med}>",0.278
+Malignant,2,"<{area_mean_high}, {fractal_dimension_se_med}>",0.278
+Malignant,2,"<{area_mean_high}, {concavity_se_med}>",0.278
+Malignant,2,"<{area_mean_high}, {texture_mean_med}>",0.278
+Malignant,2,"<{radius_se_high}, {smoothness_se_med}>",0.278
+Malignant,2,"<{radius_se_high}, {fractal_dimension_mean_low}>",0.278
+Malignant,2,"<{radius_mean_high}, {smoothness_se_low}>",0.274
+Malignant,2,"<{radius_mean_high}, {texture_mean_med}>",0.274
+Malignant,2,"<{concavity_mean_high, symmetry_se_high}>",0.274
+Malignant,2,"<{fractal_dimension_se_high, smoothness_worst_high}>",0.274
+Malignant,2,"<{compactness_se_high, fractal_dimension_mean_high}>",0.274
+Malignant,2,"<{fractal_dimension_mean_high, fractal_dimension_se_high}>",0.274
+Malignant,2,"<{fractal_dimension_mean_high, symmetry_mean_high}>",0.274
+Malignant,2,"<{fractal_dimension_se_high, symmetry_worst_high}>",0.274
+Malignant,2,"<{concave points_mean_high}, {fractal_dimension_se_med}>",0.274
+Malignant,2,"<{concave points_mean_high}, {texture_mean_med}>",0.274
+Malignant,2,"<{concavity_worst_high}, {symmetry_se_low}>",0.274
+Malignant,2,"<{area_worst_high}, {smoothness_worst_med}>",0.274
+Malignant,2,"<{fractal_dimension_se_high, texture_mean_high}>",0.274
+Malignant,2,"<{perimeter_mean_high}, {texture_mean_med}>",0.274
+Malignant,2,"<{area_se_high}, {texture_worst_med}>",0.274
+Malignant,2,"<{area_se_high}, {fractal_dimension_worst_med}>",0.274
+Malignant,2,"<{area_se_high}, {compactness_se_med}>",0.274
+Malignant,2,"<{area_se_high}, {concave points_se_med}>",0.274
+Malignant,2,"<{radius_worst_high}, {smoothness_worst_med}>",0.274
+Malignant,2,"<{concave points_worst_high}, {symmetry_se_med}>",0.274
+Malignant,2,"<{area_mean_high}, {smoothness_se_low}>",0.274
+Malignant,2,"<{perimeter_worst_high}, {smoothness_worst_med}>",0.274
+Malignant,2,"<{radius_mean_high}, {smoothness_worst_med}>",0.269
+Malignant,2,"<{concavity_mean_high}, {symmetry_se_low}>",0.269
+Malignant,2,"<{perimeter_se_high, symmetry_se_high}>",0.269
+Malignant,2,"<{concave points_mean_high, smoothness_se_high}>",0.269
+Malignant,2,"<{concave points_mean_high}, {concave points_se_med}>",0.269
+Malignant,2,"<{concave points_mean_high}, {symmetry_se_med}>",0.269
+Malignant,2,"<{perimeter_se_high}, {fractal_dimension_mean_low}>",0.269
+Malignant,2,"<{perimeter_se_high}, {texture_se_med}>",0.269
+Malignant,2,"<{perimeter_mean_high}, {smoothness_worst_med}>",0.269
+Malignant,2,"<{compactness_worst_high}, {smoothness_se_med}>",0.269
+Malignant,2,"<{concave points_worst_high, smoothness_se_high}>",0.269
+Malignant,2,"<{area_mean_high}, {smoothness_worst_med}>",0.269
+Malignant,2,"<{perimeter_worst_high}, {fractal_dimension_mean_med}>",0.269
+Malignant,2,"<{radius_se_high}, {texture_se_med}>",0.269
+Malignant,2,"<{texture_worst_high}, {texture_se_med}>",0.264
+Malignant,2,"<{concavity_mean_high}, {fractal_dimension_se_med}>",0.264
+Malignant,2,"<{concavity_mean_high}, {smoothness_mean_med}>",0.264
+Malignant,2,"<{concave points_se_high, smoothness_se_high}>",0.264
+Malignant,2,"<{fractal_dimension_mean_high, symmetry_worst_high}>",0.264
+Malignant,2,"<{concave points_mean_high, symmetry_se_high}>",0.264
+Malignant,2,"<{perimeter_se_high, texture_se_high}>",0.264
+Malignant,2,"<{radius_se_high, texture_se_high}>",0.264
+Malignant,2,"<{concavity_worst_high}, {concave points_se_med}>",0.264
+Malignant,2,"<{perimeter_se_high, smoothness_se_high}>",0.264
+Malignant,2,"<{compactness_mean_high}, {smoothness_se_med}>",0.264
+Malignant,2,"<{compactness_mean_high}, {texture_se_med}>",0.264
+Malignant,2,"<{radius_worst_high}, {fractal_dimension_mean_med}>",0.264
+Malignant,2,"<{concave points_worst_high}, {texture_se_low}>",0.264
+Malignant,2,"<{concavity_mean_high, texture_se_high}>",0.259
+Malignant,2,"<{concavity_mean_high}, {texture_worst_med}>",0.259
+Malignant,2,"<{concavity_mean_high, smoothness_se_high}>",0.259
+Malignant,2,"<{concavity_se_high, symmetry_se_high}>",0.259
+Malignant,2,"<{concave points_mean_high, texture_se_high}>",0.259
+Malignant,2,"<{area_se_high, texture_se_high}>",0.259
+Malignant,2,"<{perimeter_mean_high}, {concave points_se_med}>",0.259
+Malignant,2,"<{concave points_worst_high}, {fractal_dimension_mean_med}>",0.259
+Malignant,2,"<{concave points_worst_high}, {smoothness_se_low}>",0.259
+Malignant,2,"<{area_mean_high}, {fractal_dimension_mean_med}>",0.259
+Malignant,2,"<{perimeter_worst_high}, {texture_se_low}>",0.259
+Malignant,2,"<{radius_se_high}, {smoothness_mean_med}>",0.259
+Malignant,2,"<{fractal_dimension_se_high, texture_worst_high}>",0.255
+Malignant,2,"<{radius_mean_high}, {fractal_dimension_mean_med}>",0.255
+Malignant,2,"<{radius_mean_high}, {texture_se_low}>",0.255
+Malignant,2,"<{radius_mean_high}, {concave points_se_med}>",0.255
+Malignant,2,"<{concavity_mean_high}, {concavity_se_med}>",0.255
+Malignant,2,"<{concavity_mean_high}, {symmetry_mean_med}>",0.255
+Malignant,2,"<{concavity_se_high, fractal_dimension_mean_high}>",0.255
+Malignant,2,"<{fractal_dimension_mean_high, perimeter_worst_high}>",0.255
+Malignant,2,"<{concave points_worst_high, symmetry_se_high}>",0.255
+Malignant,2,"<{radius_se_high, symmetry_se_high}>",0.255
+Malignant,2,"<{concave points_worst_high, texture_se_high}>",0.255
+Malignant,2,"<{concave points_mean_high}, {fractal_dimension_mean_med}>",0.255
+Malignant,2,"<{concavity_worst_high}, {fractal_dimension_se_med}>",0.255
+Malignant,2,"<{area_worst_high}, {fractal_dimension_mean_med}>",0.255
+Malignant,2,"<{area_worst_high}, {texture_se_low}>",0.255
+Malignant,2,"<{perimeter_mean_high}, {fractal_dimension_mean_med}>",0.255
+Malignant,2,"<{perimeter_mean_high}, {texture_se_low}>",0.255
+Malignant,2,"<{area_se_high}, {smoothness_worst_med}>",0.255
+Malignant,2,"<{area_se_high}, {texture_mean_med}>",0.255
+Malignant,2,"<{area_se_high}, {symmetry_mean_med}>",0.255
+Malignant,2,"<{radius_worst_high}, {texture_se_low}>",0.255
+Malignant,2,"<{area_mean_high}, {texture_se_low}>",0.255
+Malignant,2,"<{area_mean_high}, {concave points_se_med}>",0.255
+Malignant,2,"<{perimeter_worst_high}, {symmetry_se_med}>",0.255
+Malignant,2,"<{radius_se_high}, {fractal_dimension_se_med}>",0.255
+Malignant,2,"<{radius_mean_high, symmetry_se_high}>",0.25
+Malignant,2,"<{area_worst_high, fractal_dimension_mean_high}>",0.25
+Malignant,2,"<{fractal_dimension_mean_high, radius_worst_high}>",0.25
+Malignant,2,"<{perimeter_mean_high, symmetry_se_high}>",0.25
+Malignant,2,"<{area_se_high, symmetry_se_high}>",0.25
+Malignant,2,"<{radius_worst_high, symmetry_se_high}>",0.25
+Malignant,2,"<{area_mean_high, symmetry_se_high}>",0.25
+Malignant,2,"<{concave points_mean_high}, {smoothness_worst_med}>",0.25
+Malignant,2,"<{concave points_mean_high}, {fractal_dimension_worst_med}>",0.25
+Malignant,2,"<{concave points_mean_high}, {texture_se_low}>",0.25
+Malignant,2,"<{area_worst_high}, {symmetry_worst_med}>",0.25
+Malignant,2,"<{area_worst_high}, {symmetry_se_med}>",0.25
+Malignant,2,"<{perimeter_se_high}, {fractal_dimension_se_med}>",0.25
+Malignant,2,"<{perimeter_se_high}, {smoothness_mean_med}>",0.25
+Malignant,2,"<{radius_worst_high}, {symmetry_worst_med}>",0.25
+Malignant,2,"<{radius_worst_high}, {symmetry_se_med}>",0.25
+Malignant,2,"<{concavity_se_high, smoothness_se_high}>",0.25
+Malignant,2,"<{perimeter_worst_high}, {symmetry_worst_med}>",0.25
+Malignant,2,"<{radius_se_high}, {texture_worst_med}>",0.25
+Malignant,2,"<{radius_se_high}, {concavity_se_med}>",0.25
