@@ -1,6 +1,8 @@
 import numpy as np
 from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.metrics import confusion_matrix, accuracy_score
 
 from models import *
 import torch
@@ -30,7 +32,7 @@ def autoencoder_train_simple_linear(input_latent, train_loader):
             loss.backward()
             optimizer.step()
             epoch_loss += loss.item()
-        print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {epoch_loss :.6f}")
+        #print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {epoch_loss :.6f}")
     torch.save(autoencoder.state_dict(), 'autoencoder.pt')
 
 
@@ -69,7 +71,7 @@ def classifer_train(input_latent, train_loader):
             loss.backward()
             optimizer.step()
             epoch_loss += loss.item()
-        print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {epoch_loss :.6f}")
+        #print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {epoch_loss :.6f}")
     torch.save(model.state_dict(), 'linear_with_auto.pt')
 
 def classifer_train_without_auto(train_loader):
@@ -105,7 +107,7 @@ def classifer_train_without_auto(train_loader):
             loss.backward()
             optimizer.step()
             epoch_loss += loss.item()
-        print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {epoch_loss :.6f}")
+        #print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {epoch_loss :.6f}")
     torch.save(model.state_dict(), 'linear_without_auto.pt')
 
 def random_forest_train_eval():
@@ -120,11 +122,30 @@ def random_forest_train_eval():
     print(conf_matrix)
     print(accuracy)
 
+def gradient_boost_train_eval():
+    x_train, x_test, y_train, y_test = prep_data_skleanr("./../breast-cancer.csv")
+    gb = GradientBoostingClassifier(
+        n_estimators=100,
+        learning_rate=0.1,
+        max_depth=5,
+        random_state=42)
+    gb.fit(x_train, y_train)
+
+    y_pred = gb.predict(x_test)
+    conf_matrix = confusion_matrix(y_test, y_pred)
+    accuracy = accuracy_score(y_test, y_pred)
+
+    print(conf_matrix)
+    print(accuracy)
+
+
+
 
 
 
 if "__main__" == __name__:
     random_forest_train_eval()
+    gradient_boost_train_eval()
 
     input_latent = 2
     batch_size = 32
