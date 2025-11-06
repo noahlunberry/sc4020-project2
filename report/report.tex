@@ -16,6 +16,7 @@
 \usepackage{etoolbox}
 \usepackage{comment}
 
+\usepackage[numbers]{natbib}
 \usepackage{hyperref}
 \renewcommand{\sectionautorefname}{Section}
 \renewcommand{\subsectionautorefname}{Section}
@@ -184,9 +185,89 @@ This small test shows how sequential pattern mining can help understand which fe
 
 \pagebreak
 \section{Task 3: Open Advanced Task}
+An important healthcare application is to be able to distinguish cancerous breast mass tissue from noncancerous tissue. Data analytics tools can be useful for this task, with the promise of breast cancer prognoses becoming faster and more accurate, particularly for early stages of cancer. \cite{mashekova2025ai_breastcancer} To date, commercial ML cancer detectors have been shown to have the potential to reduce the workload of radiologists by more than half, as well as to diagnose some cancers that would otherwise have been detected later. \cite{dembrower2020ai_triaging} In this way, successful cancer detection tools can alleviate overburdened healthcare workers to give them more time to focus on patient care and complex cases. They can also allow for earlier and thus more effective treatment of breast cancer, thereby increasing the life spans of patients.
 
-\pagebreak
-\section{Conclusion} % potentially optional
+In this report, four different data analytics techniques are used to detect breast cancer: random forest, gradient boosting, linear classifier, and autoencoder with linear classifier. These techniques are first explained, and then their performance is compared.
+
+
+
+\subsection{Technique explanation}
+\subsubsection{Random forest}
+A random forest is an ensemble machine learning technique which combines the predictions of multiple individual decision trees in order to make a final prediction about an input. The trees are each trained on random subsets of the training data. Each tree will make its own prediction based on the input data, and then the final prediction is made by majority voting among the predictions of all trees. The strength of this method is its "wisdom of crowds" approach: errors made by an individual tree tend to be averaged out by considering the group of trees. \cite{medium_random_forest}
+
+\subsubsection{Gradient boosting}
+Gradient boosting is another ensemble machine learning technique which progressively uses its errors as new inputs for subsequent iterations of the model. An starting decision tree is initialised, and its errors from the actual values are calculated. These errors are used to train a subsequent model, the errors of which are also calculated. This process can then be repeated until a stopping criterion is reached, such as desired accuracy or number of repetitions. \cite{ibm_grad_boosting}
+
+
+\subsubsection{Linear classifier}
+A linear classifier is a machine learning technique that uses a linear combination of explanatory variables to make predictions \cite{twd_linear_classifier}. Linear decision boundaries define decision regions that categorize input data. In a multi-layer perceptron, these linear decision boundaries form the basis for classification predictions.
+
+
+
+\subsubsection{Autoencoder with linear classifier}
+An autoencoder is an unsupervised dimensionality reduction technique. It begins by encoding input data to compress it to its latent space. Then, decoding takes place to make a reconstruction of the compressed data. The output of the decoder is compared to the original input. If an acceptable level of similarity is met between the input to the encoder and the output of the decoder, it can be said that sufficient latent variables are used in the latent space. \cite{ibm_autoencoder} Once the latent space is established, the decoder can be discarded, and a linear classifier can be trained on the latent space data to perform classification tasks.
+
+
+
+\subsection{Results and comparison}
+\autoref{table_accuracies_task3} displays the accuracy, precision, recall, and F1-score of each of the techniques, and \autoref{fig_all_conf_matrices} shows the confusion matrices. The random forest is the most accurate, and also ranks the best for the remaining metrics. This is expected, as this kind of classifier usually outperforms the other techniques on tabular data, as is used in this case. The linear classifier is the next most accurate, followed by gradient boosting and then the autoencoder with linear classifier.
+
+It should be noted that there is no clear best approach between ensemble methods (random forest and gradient boosting) and neural-network based methods (linear classifier and autoencoder with linear classifier): while both ensemble methods are more precise than the NN based methods, the linear classifier outperforms gradient boosting in all other metrics.
+
+It can be concluded that the random forest technique is the best proposal for cancer detection on this dataset, as this technique features the highest accuracy, precision, recall, and F1-score.
+
+
+\begin{table}[H]
+\centering
+\caption{Accuracy of different techniques on the breast cancer dataset}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Method} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} \\ \hline
+Random forest & 0.9649 & 0.9750 & 0.9286 & 0.9512 \\ \hline
+Gradient boosting & 0.9386 & 0.9583 & 0.9020 & 0.9293 \\ \hline
+Linear classifier & 0.9561 & 0.9474 & 0.9231 & 0.9351 \\ \hline
+Autoencoder with linear classifier & 0.9211 & 0.9167 & 0.8462 & 0.8000 \\ \hline
+\end{tabular}
+\label{table_accuracies_task3}
+\end{table}
+
+
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/confusion_matrix_random_forest.png}
+        \caption{Random forest}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/confusion_matrix_gradient_boosting.png}
+        \caption{Gradient boosting}
+    \end{subfigure}
+
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/confusion_matrix_linear_classifier.png}
+        \caption{Linear classifier}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/confusion_matrix_autoencoder.png}
+        \caption{Autoencoder with linear classifier}
+    \end{subfigure}
+
+    \caption{Confusion matrices of the various techniques on the breast cancer dataset}
+    \label{fig_all_conf_matrices}
+\end{figure}
+
+% \pagebreak
+% \section{Conclusion} % potentially optional
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
 
 \pagebreak
 \section*{Appendix A - Breakdown of Contributions}
@@ -199,10 +280,10 @@ This small test shows how sequential pattern mining can help understand which fe
 Coding, analysis, and write-up for Task 2. \\
 
 \textbf{PIKERINGA ANTONINA DAILA (N2504101A)} \\
-Coding, analysis, and write-up for Task 2. \\
+Write-up for Task 3. \\
 
 \textbf{RAHLFS FREDERIC MAURITZ (N2504096K)} \\
-Coding, analysis, and write-up for Task 3. \\
+Coding for Task 3. \\
 
 \textbf{SARAH EMILY ONG XIN WEI (U2440124G)} \\
 Coding, analysis, and write-up for Task 1. \\

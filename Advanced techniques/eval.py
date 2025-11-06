@@ -3,6 +3,8 @@ from models import *
 import torch
 from utils import *
 from models import *
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
 def eval_autoencoder_linear(laten_dim, test_loader):
     input_latent = laten_dim
@@ -38,13 +40,32 @@ def eval_autoencoder_linear(laten_dim, test_loader):
     conf_matrix = torch.zeros(2, 2, dtype=torch.int32)
     for t, p in zip(all_labels, all_preds):
         conf_matrix[t, p] += 1
+#--------------
+    y_true = all_labels.cpu().numpy()
+    y_pred = all_preds.cpu().numpy()
 
+    accuracy = accuracy_score(y_true, y_pred)
+    precision = precision_score(y_true, y_pred, average='binary')
+    recall = recall_score(y_true, y_pred, average='binary')
+    f1 = f1_score(y_true, y_pred, average='binary')
+
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall: {recall:.4f}")
+    print(f"F1-score: {f1:.4f}")
+#-------
     print("Confusion Matrix:")
     print(conf_matrix)
 
     # Optional: compute accuracy
     accuracy = (all_preds == all_labels).sum().item() / len(all_labels)
     print(f"Accuracy: {accuracy:.4f}")
+
+    cm_display = sklearn.metrics.ConfusionMatrixDisplay(confusion_matrix=conf_matrix.numpy(), display_labels=[0, 1])
+    cm_display.plot()
+    plt.title("Autoencoder with Linear Classifier Confusion Matrix")
+    plt.show()
+
 
 def eval_autoencoder(laten_dim, test_loader):
     input_latent = laten_dim
@@ -112,12 +133,32 @@ def eval_linear(train_loader):
     for t, p in zip(all_labels, all_preds):
         conf_matrix[t, p] += 1
 
+    # --------------
+    y_true = all_labels.cpu().numpy()
+    y_pred = all_preds.cpu().numpy()
+
+    accuracy = accuracy_score(y_true, y_pred)
+    precision = precision_score(y_true, y_pred, average='binary')
+    recall = recall_score(y_true, y_pred, average='binary')
+    f1 = f1_score(y_true, y_pred, average='binary')
+
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall: {recall:.4f}")
+    print(f"F1-score: {f1:.4f}")
+    # -------
+
     print("Confusion Matrix:")
     print(conf_matrix)
 
     # Optional: compute accuracy
     accuracy = (all_preds == all_labels).sum().item() / len(all_labels)
     print(f"Accuracy: {accuracy:.4f}")
+
+    cm_display = sklearn.metrics.ConfusionMatrixDisplay(confusion_matrix=conf_matrix.numpy(), display_labels=[0, 1])
+    cm_display.plot()
+    plt.title("Linear Classifier Confusion Matrix")
+    plt.show()
 
 
 

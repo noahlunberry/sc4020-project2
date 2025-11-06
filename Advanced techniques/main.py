@@ -4,7 +4,7 @@ from utils import *
 from eval import *
 print("###########random forest########")
 random_forest_train_eval()
-print("############# gradient bossting ##########")
+print("############# gradient boosting ##########")
 gradient_boost_train_eval()
 
 input_latent = 10

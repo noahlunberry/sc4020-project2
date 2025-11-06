@@ -2,7 +2,8 @@ import numpy as np
 from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
+import matplotlib.pyplot as plt
 
 from models import *
 import torch
@@ -118,9 +119,20 @@ def random_forest_train_eval():
     y_pred = rf.predict(x_test)
     conf_matrix = confusion_matrix(y_test, y_pred)
     accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred, average='binary')
+    recall = recall_score(y_test, y_pred, average='binary')
+    f1 = f1_score(y_test, y_pred, average='binary')
 
     print(conf_matrix)
-    print(accuracy)
+    print("Accuracy: " + str(accuracy))
+    print("Precision: " + str(precision))
+    print("Recall: " + str(recall))
+    print("F1: " + str(f1))
+
+    cm_display = sklearn.metrics.ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=[0, 1])
+    cm_display.plot()
+    plt.title("Random Forest Confusion Matrix")
+    plt.show()
 
 def gradient_boost_train_eval():
     x_train, x_test, y_train, y_test = prep_data_skleanr("./../breast-cancer.csv")
@@ -134,10 +146,20 @@ def gradient_boost_train_eval():
     y_pred = gb.predict(x_test)
     conf_matrix = confusion_matrix(y_test, y_pred)
     accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred, average='binary')
+    recall = recall_score(y_test, y_pred, average='binary')
+    f1 = f1_score(y_test, y_pred, average='binary')
 
     print(conf_matrix)
-    print(accuracy)
+    print("Accuracy: " + str(accuracy))
+    print("Precision: " + str(precision))
+    print("Recall: " + str(recall))
+    print("F1: " + str(f1))
 
+    cm_display = sklearn.metrics.ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=[0, 1])
+    cm_display.plot()
+    plt.title("Gradient Boosting Confusion Matrix")
+    plt.show()
 
 
 
