@@ -187,7 +187,7 @@ This small test shows how sequential pattern mining can help understand which fe
 \section{Task 3: Open Advanced Task}
 An important healthcare application is to be able to distinguish cancerous breast mass tissue from noncancerous tissue. Data analytics tools can be useful for this task, with the promise of breast cancer prognoses becoming faster and more accurate, particularly for early stages of cancer. \cite{mashekova2025ai_breastcancer} To date, commercial ML cancer detectors have been shown to have the potential to reduce the workload of radiologists by more than half, as well as to diagnose some cancers that would otherwise have been detected later. \cite{dembrower2020ai_triaging} In this way, successful cancer detection tools can alleviate overburdened healthcare workers to give them more time to focus on patient care and complex cases. They can also allow for earlier and thus more effective treatment of breast cancer, thereby increasing the life spans of patients.
 
-In this report, four different data analytics techniques are used to detect breast cancer: random forest, gradient boosting, linear classifier, and autoencoder with linear classifier. These techniques are first explained, and then their performance is compared.
+In this report, four different data analytics techniques are used to detect breast cancer: random forest, gradient boosting, linear classifier, and autoencoder with linear classifier. The former two techniques are ensemble methods, while the latter two are neural-network based methods. These techniques are first explained, and then their performance is compared.
 
 
 
@@ -212,7 +212,7 @@ An autoencoder is an unsupervised dimensionality reduction technique. It begins 
 \subsection{Results and comparison}
 \autoref{table_accuracies_task3} displays the accuracy, precision, recall, and F1-score of each of the techniques, and \autoref{fig_all_conf_matrices} shows the confusion matrices. The random forest is the most accurate, and also ranks the best for the remaining metrics. This is expected, as this kind of classifier usually outperforms the other techniques on tabular data, as is used in this case. The linear classifier is the next most accurate, followed by gradient boosting and then the autoencoder with linear classifier.
 
-It should be noted that there is no clear best approach between ensemble methods (random forest and gradient boosting) and neural-network based methods (linear classifier and autoencoder with linear classifier): while both ensemble methods are more precise than the NN based methods, the linear classifier outperforms gradient boosting in all other metrics.
+It should be noted that there is no clear best approach between ensemble methods (random forest and gradient boosting) and neural-network based methods (linear classifier and autoencoder with linear classifier): while both ensemble methods are more precise than the neural-network based methods, the linear classifier outperforms gradient boosting in all other metrics.
 
 It can be concluded that the random forest technique is the best proposal for cancer detection on this dataset, as this technique features the highest accuracy, precision, recall, and F1-score.
 
