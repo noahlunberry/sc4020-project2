@@ -16,7 +16,9 @@
 \usepackage{etoolbox}
 \usepackage{comment}
 
-\usepackage[numbers]{natbib}
+\usepackage[style=ieee,sorting=ynt]{biblatex}
+\addbibresource{bibliography.bib}
+
 \usepackage{hyperref}
 \renewcommand{\sectionautorefname}{Section}
 \renewcommand{\subsectionautorefname}{Section}
@@ -185,7 +187,11 @@ This small test shows how sequential pattern mining can help understand which fe
 
 \pagebreak
 \section{Task 3: Open Advanced Task}
-An important healthcare application is to be able to distinguish cancerous breast mass tissue from noncancerous tissue. Data analytics tools can be useful for this task, with the promise of breast cancer prognoses becoming faster and more accurate, particularly for early stages of cancer. \cite{mashekova2025ai_breastcancer} To date, commercial ML cancer detectors have been shown to have the potential to reduce the workload of radiologists by more than half, as well as to diagnose some cancers that would otherwise have been detected later. \cite{dembrower2020ai_triaging} In this way, successful cancer detection tools can alleviate overburdened healthcare workers to give them more time to focus on patient care and complex cases. They can also allow for earlier and thus more effective treatment of breast cancer, thereby increasing the life spans of patients.
+An important healthcare application is to be able to distinguish cancerous breast mass tissue from noncancerous tissue. 
+Data analytics tools can be useful for this task, with the promise of breast cancer prognoses becoming faster and more accurate, particularly for early stages of cancer \cite{mashekova2025ai_breastcancer}. 
+To date, commercial ML cancer detectors have been shown to have the potential to reduce the workload of radiologists by more than half, as well as to diagnose some cancers that would otherwise have been detected later \cite{dembrower2020ai_triaging}. 
+In this way, successful cancer detection tools can alleviate overburdened healthcare workers to give them more time to focus on patient care and complex cases. 
+They can also allow for earlier and thus more effective treatment of breast cancer, thereby increasing the life spans of patients.
 
 In this report, four different data analytics techniques are used to detect breast cancer: random forest, gradient boosting, linear classifier, and autoencoder with linear classifier. The former two techniques are ensemble methods, while the latter two are neural-network based methods. These techniques are first explained, and then their performance is compared.
 
@@ -263,11 +269,13 @@ Autoencoder with linear classifier & 0.9211 & 0.9167 & 0.8462 & 0.8000 \\ \hline
     \label{fig_all_conf_matrices}
 \end{figure}
 
-% \pagebreak
-% \section{Conclusion} % potentially optional
-
-\bibliographystyle{unsrt}
-\bibliography{bibliography}
+\pagebreak
+\section*{List of References}
+\pagenumbering{arabic}
+\renewcommand{\thepage}{R-\arabic{page}}
+\markboth{List of References}{} 
+\addcontentsline{toc}{section}{List of References}
+\printbibliography[heading=none]
 
 \pagebreak
 \section*{Appendix A - Breakdown of Contributions}

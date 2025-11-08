@@ -1,0 +1,286 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{dembrower2020ai_triaging}{article}{}
+      \name{author}{8}{}{%
+        {{hash=77635aa73a848a94ec325406d363b270}{%
+           family={Dembrower},
+           familyi={D\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f89d423db0e5cb1fdf34dd245b9e385f}{%
+           family={Wåhlin},
+           familyi={W\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4ea6157adaa214ea9a0734bb53dd8492}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fa80bea69fc5705149dd9d808c9d64db}{%
+           family={Salim},
+           familyi={S\bibinitperiod},
+           given={Mattie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b8a5110cb94389c999baac8bf15ef959}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e53b9bce8206562652cc1d2bb2f40d03}{%
+           family={Lindholm},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fd840aaec83f954e1f0e45486cd83a13}{%
+           family={Eklund},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d33da1f04904be8385697e06a1512a0}{%
+           family={Strand},
+           familyi={S\bibinitperiod},
+           given={Fredrik},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d2941d9fc69b749f3ae03e3d136488b}
+      \strng{fullhash}{609ef77d24dec673e386f1c8d8ded7a4}
+      \strng{bibnamehash}{9d2941d9fc69b749f3ae03e3d136488b}
+      \strng{authorbibnamehash}{9d2941d9fc69b749f3ae03e3d136488b}
+      \strng{authornamehash}{9d2941d9fc69b749f3ae03e3d136488b}
+      \strng{authorfullhash}{609ef77d24dec673e386f1c8d8ded7a4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet Digital Health}
+      \field{number}{9}
+      \field{title}{Effect of artificial intelligence-based triaging of breast cancer screening mammograms on cancer detection and radiologist workload: a retrospective simulation study}
+      \field{volume}{2}
+      \field{year}{2020}
+      \field{pages}{e468\bibrangedash e474}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/S2589-7500(20)30185-0
+      \endverb
+      \verb{urlraw}
+      \verb https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30185-0/fulltext
+      \endverb
+      \verb{url}
+      \verb https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30185-0/fulltext
+      \endverb
+    \endentry
+    \entry{twd_linear_classifier}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b458f711a4e6152aa0d078ee908212df}{%
+           family={Krishna},
+           familyi={K\bibinitperiod},
+           given={Dhruva},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b458f711a4e6152aa0d078ee908212df}
+      \strng{fullhash}{b458f711a4e6152aa0d078ee908212df}
+      \strng{bibnamehash}{b458f711a4e6152aa0d078ee908212df}
+      \strng{authorbibnamehash}{b458f711a4e6152aa0d078ee908212df}
+      \strng{authornamehash}{b458f711a4e6152aa0d078ee908212df}
+      \strng{authorfullhash}{b458f711a4e6152aa0d078ee908212df}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{towards data science}}
+      \field{title}{{A look at the Maths Behind Linear Classification}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/a-look-at-the-maths-behind-linear-classification-166e99a9e5fb/
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/a-look-at-the-maths-behind-linear-classification-166e99a9e5fb/
+      \endverb
+    \endentry
+    \entry{medium_random_forest}{article}{}
+      \name{author}{1}{}{%
+        {{hash=30275e8be408c826092fa6bbc59888d2}{%
+           family={Baladram},
+           familyi={B\bibinitperiod},
+           given={Samy},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{30275e8be408c826092fa6bbc59888d2}
+      \strng{fullhash}{30275e8be408c826092fa6bbc59888d2}
+      \strng{bibnamehash}{30275e8be408c826092fa6bbc59888d2}
+      \strng{authorbibnamehash}{30275e8be408c826092fa6bbc59888d2}
+      \strng{authornamehash}{30275e8be408c826092fa6bbc59888d2}
+      \strng{authorfullhash}{30275e8be408c826092fa6bbc59888d2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{title}{{Random Forest, Explained: A Visual Guide with Code Examples}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://medium.com/data-science/random-forest-explained-a-visual-guide-with-code-examples-9f736a6e1b3c
+      \endverb
+      \verb{url}
+      \verb https://medium.com/data-science/random-forest-explained-a-visual-guide-with-code-examples-9f736a6e1b3c
+      \endverb
+    \endentry
+    \entry{mashekova2025ai_breastcancer}{article}{}
+      \name{author}{8}{}{%
+        {{hash=81f301b22fc6fd8254a19e2ac219f480}{%
+           family={Mashekova},
+           familyi={M\bibinitperiod},
+           given={Aigerim},
+           giveni={A\bibinitperiod}}}%
+        {{hash=392a4d4e18854359df445a7c5ac83cd3}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Michael\bibnamedelima Yong},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=33b667e03fe1069255e4ff5230ddbace}{%
+           family={Zarikas},
+           familyi={Z\bibinitperiod},
+           given={Vasilios},
+           giveni={V\bibinitperiod}}}%
+        {{hash=6b95e84751d39cc928add41b3396eb7e}{%
+           family={Mukhmetov},
+           familyi={M\bibinitperiod},
+           given={Olzhas},
+           giveni={O\bibinitperiod}}}%
+        {{hash=56db5d4505fae599e4fbeb82f76fea66}{%
+           family={Aidossov},
+           familyi={A\bibinitperiod},
+           given={Nurduman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d790c3a340eb01b43a7ef79e67b5ba4f}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Eddie\bibnamedelimb Yin\bibnamedelima Kwee},
+           giveni={E\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=8459110ec95420ff881a05d1903c3f05}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Dongming},
+           giveni={D\bibinitperiod}}}%
+        {{hash=67cf486b1b11d3a1d46efb9463eb85ec}{%
+           family={Shapatova},
+           familyi={S\bibinitperiod},
+           given={Madina},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d337e4ce352285e88b7b11a9addcd93c}
+      \strng{fullhash}{cd4d8ed9960f10c0e2d935dcea8155fd}
+      \strng{bibnamehash}{d337e4ce352285e88b7b11a9addcd93c}
+      \strng{authorbibnamehash}{d337e4ce352285e88b7b11a9addcd93c}
+      \strng{authornamehash}{d337e4ce352285e88b7b11a9addcd93c}
+      \strng{authorfullhash}{cd4d8ed9960f10c0e2d935dcea8155fd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioengineering}
+      \field{note}{PMCID: PMC12561872}
+      \field{number}{10}
+      \field{title}{Review of Artificial Intelligence Techniques for Breast Cancer Detection with Different Modalities: Mammography, Ultrasound, and Thermography Images}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{pages}{1110}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/bioengineering12101110
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12561872/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12561872/
+      \endverb
+    \endentry
+    \entry{ibm_autoencoder}{article}{}
+      \name{author}{2}{}{%
+        {{hash=145cb942e2c6e0e141b825eb8cebbdb1}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3ad6590e5b4a21e93d302b7e0bf0d768}{%
+           family={Stryker},
+           familyi={S\bibinitperiod},
+           given={Cole},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ea8c48ca06aa76c67d5af9f1419310f}
+      \strng{fullhash}{3ea8c48ca06aa76c67d5af9f1419310f}
+      \strng{bibnamehash}{3ea8c48ca06aa76c67d5af9f1419310f}
+      \strng{authorbibnamehash}{3ea8c48ca06aa76c67d5af9f1419310f}
+      \strng{authornamehash}{3ea8c48ca06aa76c67d5af9f1419310f}
+      \strng{authorfullhash}{3ea8c48ca06aa76c67d5af9f1419310f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IBM}
+      \field{title}{{What is an autoencoder?}}
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/autoencoder
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/autoencoder
+      \endverb
+    \endentry
+    \entry{ibm_grad_boosting}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1b512f9933fa3ed9ba0cceee9bcc380c}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ed958f9d3f73b33a264a563ee73e6aa2}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Fangfang},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f4dcce3b7c907441ff3e5459a2202b1}
+      \strng{fullhash}{3f4dcce3b7c907441ff3e5459a2202b1}
+      \strng{bibnamehash}{3f4dcce3b7c907441ff3e5459a2202b1}
+      \strng{authorbibnamehash}{3f4dcce3b7c907441ff3e5459a2202b1}
+      \strng{authornamehash}{3f4dcce3b7c907441ff3e5459a2202b1}
+      \strng{authorfullhash}{3f4dcce3b7c907441ff3e5459a2202b1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IBM}
+      \field{title}{{What is gradient boosting?}}
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/gradient-boosting#:~:text=Gradient%20boosting%20is%20a%20machine,minimize%20errors%20and%20improve%20accuracy.
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/gradient-boosting#:~:text=Gradient%20boosting%20is%20a%20machine,minimize%20errors%20and%20improve%20accuracy.
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
